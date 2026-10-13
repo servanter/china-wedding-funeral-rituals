@@ -17,7 +17,9 @@
 
 ## 仓库简介
 
-<video src="assets/videos/nacai-mix.mp4" controls width="480">您的浏览器不支持视频播放，请<a href="assets/videos/nacai-mix.mp4">点击此处观看 / 下载 nacai-mix.mp4</a>。</video>
+![纳采仪节演示（纳采·嘉礼）](assets/videos/nacai-mix.gif)
+
+[▶ 观看完整演示视频（mp4，下载后本地播放）](assets/videos/nacai-mix.mp4)
 
 本库覆盖三大板块：
 

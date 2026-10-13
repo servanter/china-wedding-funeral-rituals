@@ -16,7 +16,9 @@
 
 ## About
 
-<video src="assets/videos/nacai-mix.mp4" controls width="480">Your browser does not support the video. <a href="assets/videos/nacai-mix.mp4">Click to watch / download nacai-mix.mp4</a>.</video>
+![Nacai rite demo (Nacai, a Jiali rite)](assets/videos/nacai-mix.gif)
+
+[▶ Watch the full demo video (mp4, play locally after download)](assets/videos/nacai-mix.mp4)
 
 This corpus covers three parts:
 
