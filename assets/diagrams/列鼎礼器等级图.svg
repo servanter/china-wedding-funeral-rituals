@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 550" width="1280" height="550" role="img" aria-label="列鼎礼器等级图">
+  <title>列鼎礼器等级图</title>
+  <desc>天子九鼎八簋、诸侯七鼎六簋、大夫五鼎四簋、士三鼎二簋的礼器等级示意图。</desc>
+
+  <style>
+    text{font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;}
+    .bg{fill:#FFFFFF}
+    .title{font-size:26px;font-weight:700;fill:#2B2B2B}
+    .subtitle{font-size:14px;fill:#7A6A52}
+    .rule{stroke:#E4DDD1;stroke-width:1}
+    .rank{font-size:16px;font-weight:700;fill:#3A3126}
+    .pt{font-size:13px;font-weight:700;fill:#FFFFFF}
+    .note{font-size:12.5px;fill:#6E6A62}
+    .caption{font-size:12.5px;fill:#7A6A52}
+  </style>
+
+  <rect class="bg" x="0" y="0" width="1280" height="550"/>
+
+  <text class="title" x="50" y="58">列鼎礼器等级图</text>
+  <text class="subtitle" x="50" y="86">「藏礼于器」：鼎簋之数即身份之等，是为「列鼎制度」</text>
+  <line class="rule" x1="50" y1="104" x2="1230" y2="104"/>
+
+  <!-- 天子 -->
+  <text class="rank" x="240" y="176" text-anchor="end">天子</text>
+  <rect x="280" y="157" width="52" height="26" rx="8" fill="#A0764A"/>
+  <text class="pt" x="306" y="175" text-anchor="middle">鼎</text>
+  <circle cx="360" cy="170" r="10" fill="#A0764A"/>
+  <circle cx="390" cy="170" r="10" fill="#A0764A"/>
+  <circle cx="420" cy="170" r="10" fill="#A0764A"/>
+  <circle cx="450" cy="170" r="10" fill="#A0764A"/>
+  <circle cx="480" cy="170" r="10" fill="#A0764A"/>
+  <circle cx="510" cy="170" r="10" fill="#A0764A"/>
+  <circle cx="540" cy="170" r="10" fill="#A0764A"/>
+  <circle cx="570" cy="170" r="10" fill="#A0764A"/>
+  <circle cx="600" cy="170" r="10" fill="#A0764A"/>
+  <rect x="660" y="157" width="52" height="26" rx="8" fill="#C9A97A"/>
+  <text class="pt" x="686" y="175" text-anchor="middle">簋</text>
+  <circle cx="740" cy="170" r="10" fill="#C9A97A"/>
+  <circle cx="770" cy="170" r="10" fill="#C9A97A"/>
+  <circle cx="800" cy="170" r="10" fill="#C9A97A"/>
+  <circle cx="830" cy="170" r="10" fill="#C9A97A"/>
+  <circle cx="860" cy="170" r="10" fill="#C9A97A"/>
+  <circle cx="890" cy="170" r="10" fill="#C9A97A"/>
+  <circle cx="920" cy="170" r="10" fill="#C9A97A"/>
+  <circle cx="950" cy="170" r="10" fill="#C9A97A"/>
+  <text class="note" x="1000" y="175">九鼎八簋，礼制之极</text>
+
+  <!-- 诸侯 -->
+  <text class="rank" x="240" y="256" text-anchor="end">诸侯</text>
+  <rect x="280" y="237" width="52" height="26" rx="8" fill="#A0764A"/>
+  <text class="pt" x="306" y="255" text-anchor="middle">鼎</text>
+  <circle cx="360" cy="250" r="10" fill="#A0764A"/>
+  <circle cx="390" cy="250" r="10" fill="#A0764A"/>
+  <circle cx="420" cy="250" r="10" fill="#A0764A"/>
+  <circle cx="450" cy="250" r="10" fill="#A0764A"/>
+  <circle cx="480" cy="250" r="10" fill="#A0764A"/>
+  <circle cx="510" cy="250" r="10" fill="#A0764A"/>
+  <circle cx="540" cy="250" r="10" fill="#A0764A"/>
+  <rect x="660" y="237" width="52" height="26" rx="8" fill="#C9A97A"/>
+  <text class="pt" x="686" y="255" text-anchor="middle">簋</text>
+  <circle cx="740" cy="250" r="10" fill="#C9A97A"/>
+  <circle cx="770" cy="250" r="10" fill="#C9A97A"/>
+  <circle cx="800" cy="250" r="10" fill="#C9A97A"/>
+  <circle cx="830" cy="250" r="10" fill="#C9A97A"/>
+  <circle cx="860" cy="250" r="10" fill="#C9A97A"/>
+  <circle cx="890" cy="250" r="10" fill="#C9A97A"/>
+  <text class="note" x="1000" y="255">七鼎六簋</text>
+
+  <!-- 大夫 -->
+  <text class="rank" x="240" y="336" text-anchor="end">大夫</text>
+  <rect x="280" y="317" width="52" height="26" rx="8" fill="#A0764A"/>
+  <text class="pt" x="306" y="335" text-anchor="middle">鼎</text>
+  <circle cx="360" cy="330" r="10" fill="#A0764A"/>
+  <circle cx="390" cy="330" r="10" fill="#A0764A"/>
+  <circle cx="420" cy="330" r="10" fill="#A0764A"/>
+  <circle cx="450" cy="330" r="10" fill="#A0764A"/>
+  <circle cx="480" cy="330" r="10" fill="#A0764A"/>
+  <rect x="660" y="317" width="52" height="26" rx="8" fill="#C9A97A"/>
+  <text class="pt" x="686" y="335" text-anchor="middle">簋</text>
+  <circle cx="740" cy="330" r="10" fill="#C9A97A"/>
+  <circle cx="770" cy="330" r="10" fill="#C9A97A"/>
+  <circle cx="800" cy="330" r="10" fill="#C9A97A"/>
+  <circle cx="830" cy="330" r="10" fill="#C9A97A"/>
+  <text class="note" x="1000" y="335">五鼎四簋</text>
+
+  <!-- 士 -->
+  <text class="rank" x="240" y="416" text-anchor="end">士</text>
+  <rect x="280" y="397" width="52" height="26" rx="8" fill="#A0764A"/>
+  <text class="pt" x="306" y="415" text-anchor="middle">鼎</text>
+  <circle cx="360" cy="410" r="10" fill="#A0764A"/>
+  <circle cx="390" cy="410" r="10" fill="#A0764A"/>
+  <circle cx="420" cy="410" r="10" fill="#A0764A"/>
+  <rect x="660" y="397" width="52" height="26" rx="8" fill="#C9A97A"/>
+  <text class="pt" x="686" y="415" text-anchor="middle">簋</text>
+  <circle cx="740" cy="410" r="10" fill="#C9A97A"/>
+  <circle cx="770" cy="410" r="10" fill="#C9A97A"/>
+  <text class="note" x="1000" y="415">三鼎二簋</text>
+
+  <line class="rule" x1="50" y1="470" x2="1230" y2="470"/>
+  <text class="caption" x="50" y="496">器数即等级：鼎以奇数、簋以偶数递降，玉帛、钟磬、笾豆之数亦各有等差。</text>
+  <text class="caption" x="50" y="522">婚丧礼器随礼俗下移，民间以粢盛器、香案供器、烛台为主，不复古器数之制。</text>
+</svg>

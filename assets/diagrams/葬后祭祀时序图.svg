@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 450" width="1280" height="450" role="img" aria-label="葬后祭祀时序图">
+  <title>葬后祭祀时序图</title>
+  <desc>自复三、做七、百日、小祥、大祥至禫祭除服的葬后祭祀时序示意图。</desc>
+
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 8" refX="9" refY="4" markerWidth="9" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,4 L0,8 Z" fill="#C9A97A"/>
+    </marker>
+  </defs>
+
+  <style>
+    text{font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;}
+    .bg{fill:#FFFFFF}
+    .title{font-size:26px;font-weight:700;fill:#2B2B2B}
+    .subtitle{font-size:14px;fill:#7A6A52}
+    .rule{stroke:#E4DDD1;stroke-width:1}
+    .axis{stroke:#D8C7AC;stroke-width:2}
+    .tick{stroke:#D8C7AC;stroke-width:1.5}
+    .card{fill:#FBF8F3;stroke:#D8C7AC;stroke-width:1.5}
+    .ct{font-size:13px;font-weight:700;fill:#3A3126}
+    .cn{font-size:11px;fill:#6E6A62}
+    .tag{font-size:12px;fill:#A08C6E}
+    .caption{font-size:12.5px;fill:#7A6A52}
+  </style>
+
+  <rect class="bg" x="0" y="0" width="1280" height="450"/>
+
+  <text class="title" x="50" y="58">葬后祭祀时序图</text>
+  <text class="subtitle" x="50" y="86">自「复三」至「禫祭除服」，以「七」为周期，百日、周年、除服为三大节点</text>
+  <line class="rule" x1="50" y1="104" x2="1230" y2="104"/>
+
+  <text class="tag" x="110"  y="194" text-anchor="middle">卒后三日</text>
+  <text class="tag" x="322"  y="194" text-anchor="middle">七七之内</text>
+  <text class="tag" x="534"  y="194" text-anchor="middle">卒后百日</text>
+  <text class="tag" x="746"  y="194" text-anchor="middle">一周年</text>
+  <text class="tag" x="958"  y="194" text-anchor="middle">二周年</text>
+  <text class="tag" x="1170" y="194" text-anchor="middle">二十七月</text>
+
+  <line class="axis" x1="60" y1="210" x2="1220" y2="210" marker-end="url(#arrow)"/>
+  <circle cx="110"  cy="210" r="6" fill="#C9A97A"/>
+  <circle cx="322"  cy="210" r="6" fill="#C9A97A"/>
+  <circle cx="534"  cy="210" r="6" fill="#C9A97A"/>
+  <circle cx="746"  cy="210" r="6" fill="#C9A97A"/>
+  <circle cx="958"  cy="210" r="6" fill="#C9A97A"/>
+  <circle cx="1170" cy="210" r="6" fill="#C9A97A"/>
+
+  <line class="tick" x1="110"  y1="216" x2="110"  y2="240"/>
+  <line class="tick" x1="322"  y1="216" x2="322"  y2="240"/>
+  <line class="tick" x1="534"  y1="216" x2="534"  y2="240"/>
+  <line class="tick" x1="746"  y1="216" x2="746"  y2="240"/>
+  <line class="tick" x1="958"  y1="216" x2="958"  y2="240"/>
+  <line class="tick" x1="1170" y1="216" x2="1170" y2="240"/>
+
+  <rect class="card" x="12"   y="240" width="196" height="72" rx="10"/>
+  <text class="ct" x="110"  y="262" text-anchor="middle">复三（圆坟）</text>
+  <text class="cn" x="110"  y="282" text-anchor="middle">葬后三日</text>
+  <text class="cn" x="110"  y="298" text-anchor="middle">修坟哭奠</text>
+
+  <rect class="card" x="224"  y="240" width="196" height="72" rx="10"/>
+  <text class="ct" x="322"  y="262" text-anchor="middle">做七（七七）</text>
+  <text class="cn" x="322"  y="282" text-anchor="middle">头七至七七</text>
+  <text class="cn" x="322"  y="298" text-anchor="middle">周期设祭</text>
+
+  <rect class="card" x="436"  y="240" width="196" height="72" rx="10"/>
+  <text class="ct" x="534"  y="262" text-anchor="middle">百日祭</text>
+  <text class="cn" x="534"  y="282" text-anchor="middle">卒后百日</text>
+  <text class="cn" x="534"  y="298" text-anchor="middle">设祭供品</text>
+
+  <rect class="card" x="648"  y="240" width="196" height="72" rx="10"/>
+  <text class="ct" x="746"  y="262" text-anchor="middle">周年祭（小祥）</text>
+  <text class="cn" x="746"  y="282" text-anchor="middle">卒后一周年</text>
+  <text class="cn" x="746"  y="298" text-anchor="middle">服制渐轻</text>
+
+  <rect class="card" x="860"  y="240" width="196" height="72" rx="10"/>
+  <text class="ct" x="958"  y="262" text-anchor="middle">大祥</text>
+  <text class="cn" x="958"  y="282" text-anchor="middle">卒后二周年</text>
+  <text class="cn" x="958"  y="298" text-anchor="middle">再期设祭</text>
+
+  <rect class="card" x="1072" y="240" width="196" height="72" rx="10"/>
+  <text class="ct" x="1170" y="262" text-anchor="middle">禫祭除服</text>
+  <text class="cn" x="1170" y="282" text-anchor="middle">二十七月</text>
+  <text class="cn" x="1170" y="298" text-anchor="middle">除服，服制告终</text>
+
+  <line class="rule" x1="50" y1="340" x2="1230" y2="340"/>
+  <text class="caption" x="50" y="366">「三年之丧」实以二十七月为断；七七之内逢七设祭，百日、周年、除服为三大节点。</text>
+  <text class="caption" x="50" y="392">岁时祭祖：清明扫墓 · 中元祭祖 · 寒衣节送寒衣 · 冬至与除夕祭祖 · 忌日祭与生辰祭</text>
+  <text class="caption" x="50" y="418">现代形态：追思会 · 网上祭扫 · 生态安葬</text>
+</svg>

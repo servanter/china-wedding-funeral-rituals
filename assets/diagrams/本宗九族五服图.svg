@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 660" width="1280" height="660" role="img" aria-label="本宗九族五服图">
+  <title>本宗九族五服图</title>
+  <desc>以己身为中，上推高祖、下衍玄孙共九世，并列本宗直系服等概略。</desc>
+
+  <style>
+    text{font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;}
+    .bg{fill:#FFFFFF}
+    .title{font-size:26px;font-weight:700;fill:#2B2B2B}
+    .subtitle{font-size:14px;fill:#7A6A52}
+    .rule{stroke:#E4DDD1;stroke-width:1}
+    .line{stroke:#E0D4C0;stroke-width:2}
+    .node{fill:#FBF8F3;stroke:#D8C7AC;stroke-width:1.5}
+    .node-a{fill:#F6EFE4;stroke:#C9A97A;stroke-width:2}
+    .gen{font-size:12px;fill:#A08C6E}
+    .term{font-size:15px;font-weight:700;fill:#3A3126}
+    .term-a{font-size:16px;font-weight:700;fill:#8A5A2B}
+    .pill{fill:#F2E7D8;stroke:#DCC7A8;stroke-width:1}
+    .pill-t{font-size:12px;fill:#6B5644}
+    .desc{font-size:12.5px;fill:#6E6A62}
+    .hd{font-size:12px;font-weight:700;fill:#A08C6E}
+    .caption{font-size:12.5px;fill:#7A6A52}
+  </style>
+
+  <rect class="bg" x="0" y="0" width="1280" height="660"/>
+
+  <text class="title" x="50" y="58">本宗九族五服图</text>
+  <text class="subtitle" x="50" y="86">以己身为中，上推高祖、下衍玄孙，共九世；服等依《仪礼·丧服》为本宗直系概略</text>
+  <line class="rule" x1="50" y1="104" x2="1230" y2="104"/>
+
+  <text class="hd" x="128" y="136" text-anchor="end">世次</text>
+  <text class="hd" x="290" y="136" text-anchor="middle">称谓</text>
+  <text class="hd" x="540" y="136" text-anchor="middle">服等（概略）</text>
+  <text class="hd" x="640" y="136" text-anchor="start">说明</text>
+
+  <!-- 世系连线（置于节点之下） -->
+  <line class="line" x1="290" y1="152" x2="290" y2="558"/>
+
+  <!-- 上四世 -->
+  <rect class="node" x="140" y="152" width="300" height="38" rx="8"/>
+  <text class="gen" x="128" y="177" text-anchor="end">上四世</text>
+  <text class="term" x="290" y="177" text-anchor="middle">高祖王父</text>
+  <rect class="pill" x="470" y="156" width="140" height="30" rx="8"/>
+  <text class="pill-t" x="540" y="176" text-anchor="middle">齐衰三月</text>
+  <text class="desc" x="640" y="177" text-anchor="start">五服之极，亲尽则毁</text>
+
+  <!-- 上三世 -->
+  <rect class="node" x="140" y="198" width="300" height="38" rx="8"/>
+  <text class="gen" x="128" y="223" text-anchor="end">上三世</text>
+  <text class="term" x="290" y="223" text-anchor="middle">曾祖王父</text>
+  <rect class="pill" x="470" y="202" width="140" height="30" rx="8"/>
+  <text class="pill-t" x="540" y="222" text-anchor="middle">齐衰三月</text>
+  <text class="desc" x="640" y="223" text-anchor="start">与高祖同服</text>
+
+  <!-- 上二世 -->
+  <rect class="node" x="140" y="244" width="300" height="38" rx="8"/>
+  <text class="gen" x="128" y="269" text-anchor="end">上二世</text>
+  <text class="term" x="290" y="269" text-anchor="middle">祖父</text>
+  <rect class="pill" x="470" y="248" width="140" height="30" rx="8"/>
+  <text class="pill-t" x="540" y="268" text-anchor="middle">齐衰不杖期</text>
+  <text class="desc" x="640" y="269" text-anchor="start">服一年</text>
+
+  <!-- 上一世 -->
+  <rect class="node" x="140" y="290" width="300" height="38" rx="8"/>
+  <text class="gen" x="128" y="315" text-anchor="end">上一世</text>
+  <text class="term" x="290" y="315" text-anchor="middle">父</text>
+  <rect class="pill" x="470" y="294" width="140" height="30" rx="8"/>
+  <text class="pill-t" x="540" y="314" text-anchor="middle">斩衰三年</text>
+  <text class="desc" x="640" y="315" text-anchor="start">五服之最重</text>
+
+  <!-- 本位 -->
+  <rect class="node-a" x="140" y="336" width="300" height="38" rx="8"/>
+  <text class="gen" x="128" y="361" text-anchor="end">本位</text>
+  <text class="term-a" x="290" y="361" text-anchor="middle">己身</text>
+  <rect class="pill" x="470" y="340" width="140" height="30" rx="8"/>
+  <text class="pill-t" x="540" y="360" text-anchor="middle">——</text>
+  <text class="desc" x="640" y="361" text-anchor="start">本宗九族之中心</text>
+
+  <!-- 下一世 -->
+  <rect class="node" x="140" y="382" width="300" height="38" rx="8"/>
+  <text class="gen" x="128" y="407" text-anchor="end">下一世</text>
+  <text class="term" x="290" y="407" text-anchor="middle">子</text>
+  <rect class="pill" x="470" y="386" width="140" height="30" rx="8"/>
+  <text class="pill-t" x="540" y="406" text-anchor="middle">齐衰不杖期</text>
+  <text class="desc" x="640" y="407" text-anchor="start">嫡长子则斩衰三年</text>
+
+  <!-- 下二世 -->
+  <rect class="node" x="140" y="428" width="300" height="38" rx="8"/>
+  <text class="gen" x="128" y="453" text-anchor="end">下二世</text>
+  <text class="term" x="290" y="453" text-anchor="middle">孙</text>
+  <rect class="pill" x="470" y="432" width="140" height="30" rx="8"/>
+  <text class="pill-t" x="540" y="452" text-anchor="middle">大功九月</text>
+  <text class="desc" x="640" y="453" text-anchor="start">嫡孙则为齐衰不杖期</text>
+
+  <!-- 下三世 -->
+  <rect class="node" x="140" y="474" width="300" height="38" rx="8"/>
+  <text class="gen" x="128" y="499" text-anchor="end">下三世</text>
+  <text class="term" x="290" y="499" text-anchor="middle">曾孙</text>
+  <rect class="pill" x="470" y="478" width="140" height="30" rx="8"/>
+  <text class="pill-t" x="540" y="498" text-anchor="middle">缌麻三月</text>
+  <text class="desc" x="640" y="499" text-anchor="start">五服之末</text>
+
+  <!-- 下四世 -->
+  <rect class="node" x="140" y="520" width="300" height="38" rx="8"/>
+  <text class="gen" x="128" y="545" text-anchor="end">下四世</text>
+  <text class="term" x="290" y="545" text-anchor="middle">玄孙</text>
+  <rect class="pill" x="470" y="524" width="140" height="30" rx="8"/>
+  <text class="pill-t" x="540" y="544" text-anchor="middle">缌麻三月</text>
+  <text class="desc" x="640" y="545" text-anchor="start">九族之末</text>
+
+  <line class="rule" x1="50" y1="590" x2="1230" y2="590"/>
+  <text class="caption" x="50" y="616">服等依亲疏递降：斩衰三年（父）→ 齐衰（祖、子）→ 大功九月（孙）→ 缌麻三月（曾孙、玄孙）。</text>
+  <text class="caption" x="50" y="642">旁系之伯叔、兄弟、从父兄弟等，服等依次递减，详见「五服制度」「丧服规制」两门。</text>
+</svg>

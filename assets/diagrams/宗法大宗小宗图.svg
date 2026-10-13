@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 530" width="1280" height="530" role="img" aria-label="宗法大宗小宗图">
+  <title>宗法大宗小宗图</title>
+  <desc>大宗世世不迁与小宗五世则迁的对照示意图。</desc>
+
+  <style>
+    text{font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;}
+    .bg{fill:#FFFFFF}
+    .title{font-size:26px;font-weight:700;fill:#2B2B2B}
+    .subtitle{font-size:14px;fill:#7A6A52}
+    .rule{stroke:#E4DDD1;stroke-width:1}
+    .panel{fill:#FBF8F3;stroke:#E0D4C0;stroke-width:1}
+    .h-a{fill:#A0764A}
+    .h-b{fill:#C9A97A}
+    .h-t{font-size:19px;font-weight:700;fill:#FFFFFF}
+    .ln{font-size:12.5px;fill:#4A4A4A}
+    .lb{font-size:12.5px;font-weight:700;fill:#8A6A44}
+    .caption{font-size:12.5px;fill:#7A6A52}
+  </style>
+
+  <rect class="bg" x="0" y="0" width="1280" height="530"/>
+
+  <text class="title" x="50" y="58">宗法大宗小宗图</text>
+  <text class="subtitle" x="50" y="86">以嫡长继承与宗子主祭为骨干：大宗百世不迁，小宗五世则迁</text>
+  <line class="rule" x1="50" y1="104" x2="1230" y2="104"/>
+
+  <!-- 大宗 -->
+  <rect class="panel" x="80" y="140" width="520" height="280" rx="12"/>
+  <rect class="h-a" x="80" y="140" width="520" height="48" rx="12"/>
+  <rect class="h-a" x="80" y="168" width="520" height="20"/>
+  <text class="h-t" x="340" y="172" text-anchor="middle">大宗 · 世世不迁</text>
+  <text class="lb" x="104" y="212">身分</text>
+  <text class="ln" x="176" y="212">嫡长子一系</text>
+  <text class="lb" x="104" y="242">承袭</text>
+  <text class="ln" x="176" y="242">嫡长子世世相承</text>
+  <text class="lb" x="104" y="272">职责</text>
+  <text class="ln" x="176" y="272">宗子主宗庙之祀</text>
+  <text class="lb" x="104" y="302">范围</text>
+  <text class="ln" x="176" y="302">同始祖之全族</text>
+  <text class="lb" x="104" y="332">迁毁</text>
+  <text class="ln" x="176" y="332">百世不迁</text>
+  <text class="lb" x="104" y="362">作用</text>
+  <text class="ln" x="176" y="362">敬宗收族、统摄族人</text>
+
+  <!-- 小宗 -->
+  <rect class="panel" x="680" y="140" width="520" height="280" rx="12"/>
+  <rect class="h-b" x="680" y="140" width="520" height="48" rx="12"/>
+  <rect class="h-b" x="680" y="168" width="520" height="20"/>
+  <text class="h-t" x="940" y="172" text-anchor="middle">小宗 · 五世则迁</text>
+  <text class="lb" x="704" y="212">身分</text>
+  <text class="ln" x="776" y="212">嫡长子以外之诸子</text>
+  <text class="lb" x="704" y="242">承袭</text>
+  <text class="ln" x="776" y="242">别立分支，各自为宗</text>
+  <text class="lb" x="704" y="272">职责</text>
+  <text class="ln" x="776" y="272">统其分支之族人</text>
+  <text class="lb" x="704" y="302">范围</text>
+  <text class="ln" x="776" y="302">同高祖以下之亲</text>
+  <text class="lb" x="704" y="332">迁毁</text>
+  <text class="ln" x="776" y="332">五世则迁，服尽则离</text>
+  <text class="lb" x="704" y="362">分级</text>
+  <text class="ln" x="776" y="362">继祢／继祖／继曾祖／继高祖之宗</text>
+
+  <line class="rule" x1="50" y1="450" x2="1230" y2="450"/>
+  <text class="caption" x="50" y="476">宗法以嫡庶、长幼定大宗小宗：大宗主全族之祭，小宗统其分支之亲，五世之后别立新宗。</text>
+  <text class="caption" x="50" y="502">宗法上承庙制与昭穆，下贯服制与继承，为传统婚丧礼俗的制度背景。</text>
+</svg>

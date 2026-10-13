@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 560" width="1280" height="560" role="img" aria-label="亲属称谓三大系统图">
+  <title>亲属称谓三大系统图</title>
+  <desc>宗亲、外亲、妻亲三大称谓系统及其主要亲属称谓示意图。</desc>
+
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 8" refX="9" refY="4" markerWidth="9" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,4 L0,8 Z" fill="#C9A97A"/>
+    </marker>
+  </defs>
+
+  <style>
+    text{font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;}
+    .bg{fill:#FFFFFF}
+    .title{font-size:26px;font-weight:700;fill:#2B2B2B}
+    .subtitle{font-size:14px;fill:#7A6A52}
+    .rule{stroke:#E4DDD1;stroke-width:1}
+    .self{fill:#F6EFE4;stroke:#C9A97A;stroke-width:2}
+    .self-t{font-size:18px;font-weight:700;fill:#8A5A2B}
+    .panel{fill:#FBF8F3;stroke:#D8C7AC;stroke-width:1.5}
+    .head{fill:#C9A97A}
+    .head-t{font-size:17px;font-weight:700;fill:#FFFFFF}
+    .item{font-size:12.5px;fill:#4A4A4A}
+    .bullet{fill:#D8C7AC}
+    .lead{stroke:#D8C7AC;stroke-width:1.5;stroke-dasharray:5 4}
+    .caption{font-size:12.5px;fill:#7A6A52}
+  </style>
+
+  <rect class="bg" x="0" y="0" width="1280" height="560"/>
+
+  <text class="title" x="50" y="58">亲属称谓三大系统图</text>
+  <text class="subtitle" x="50" y="86">宗亲（父系）、外亲（母族）、妻亲（妻族）三系并列，皆以己身为中心</text>
+  <line class="rule" x1="50" y1="104" x2="1230" y2="104"/>
+
+  <!-- 己身 -->
+  <rect class="self" x="580" y="122" width="120" height="38" rx="10"/>
+  <text class="self-t" x="640" y="148" text-anchor="middle">己　身</text>
+
+  <line class="lead" x1="640" y1="160" x2="240" y2="198" marker-end="url(#arrow)"/>
+  <line class="lead" x1="640" y1="160" x2="640" y2="198" marker-end="url(#arrow)"/>
+  <line class="lead" x1="640" y1="160" x2="1040" y2="198" marker-end="url(#arrow)"/>
+
+  <!-- 宗亲 -->
+  <rect class="panel" x="60" y="200" width="360" height="270" rx="12"/>
+  <rect class="head" x="60" y="200" width="360" height="44" rx="12"/>
+  <rect class="head" x="60" y="228" width="360" height="16"/>
+  <text class="head-t" x="240" y="229" text-anchor="middle">宗亲 · 父系同宗九族</text>
+  <circle class="bullet" cx="92" cy="276" r="4"/>
+  <text class="item" x="110" y="280">高祖王父、曾祖王父</text>
+  <circle class="bullet" cx="92" cy="312" r="4"/>
+  <text class="item" x="110" y="316">祖父、父</text>
+  <circle class="bullet" cx="92" cy="348" r="4"/>
+  <text class="item" x="110" y="352">子、孙、曾孙、玄孙</text>
+  <circle class="bullet" cx="92" cy="384" r="4"/>
+  <text class="item" x="110" y="388">伯叔、兄弟、从父兄弟</text>
+  <circle class="bullet" cx="92" cy="420" r="4"/>
+  <text class="item" x="110" y="424">姑（父之姊妹）</text>
+  <circle class="bullet" cx="92" cy="456" r="4"/>
+  <text class="item" x="110" y="460">族谱、宗祠、五服所系</text>
+
+  <!-- 外亲 -->
+  <rect class="panel" x="460" y="200" width="360" height="270" rx="12"/>
+  <rect class="head" x="460" y="200" width="360" height="44" rx="12"/>
+  <rect class="head" x="460" y="228" width="360" height="16"/>
+  <text class="head-t" x="640" y="229" text-anchor="middle">外亲 · 母族</text>
+  <circle class="bullet" cx="492" cy="276" r="4"/>
+  <text class="item" x="510" y="280">外祖父、外祖母</text>
+  <circle class="bullet" cx="492" cy="312" r="4"/>
+  <text class="item" x="510" y="316">舅父（母之兄弟）</text>
+  <circle class="bullet" cx="492" cy="348" r="4"/>
+  <text class="item" x="510" y="352">姨母（母之姊妹）</text>
+  <circle class="bullet" cx="492" cy="384" r="4"/>
+  <text class="item" x="510" y="388">舅表、姨表兄弟姊妹</text>
+  <circle class="bullet" cx="492" cy="420" r="4"/>
+  <text class="item" x="510" y="424">外甥、外甥女</text>
+  <circle class="bullet" cx="492" cy="456" r="4"/>
+  <text class="item" x="510" y="460">服制最轻；西南民族舅权最重</text>
+
+  <!-- 妻亲 -->
+  <rect class="panel" x="860" y="200" width="360" height="270" rx="12"/>
+  <rect class="head" x="860" y="200" width="360" height="44" rx="12"/>
+  <rect class="head" x="860" y="228" width="360" height="16"/>
+  <text class="head-t" x="1040" y="229" text-anchor="middle">妻亲 · 妻族与姻亲</text>
+  <circle class="bullet" cx="892" cy="276" r="4"/>
+  <text class="item" x="910" y="280">岳父、岳母</text>
+  <circle class="bullet" cx="892" cy="312" r="4"/>
+  <text class="item" x="910" y="316">内兄、内弟</text>
+  <circle class="bullet" cx="892" cy="348" r="4"/>
+  <text class="item" x="910" y="352">姨姐、姨妹</text>
+  <circle class="bullet" cx="892" cy="384" r="4"/>
+  <text class="item" x="910" y="388">连襟（姊妹之夫）</text>
+  <circle class="bullet" cx="892" cy="420" r="4"/>
+  <text class="item" x="910" y="424">亲家、亲家公母</text>
+  <circle class="bullet" cx="892" cy="456" r="4"/>
+  <text class="item" x="910" y="460">女婿、媳；入赘婚中妻族为主</text>
+
+  <line class="rule" x1="50" y1="500" x2="1230" y2="500"/>
+  <text class="caption" x="50" y="526">三系之外，复以「直系／旁系」「尊卑／长幼」「在世／已故」诸维度交错，配合「家」「舍」「令」尊谦规则。</text>
+  <text class="caption" x="50" y="550">称谓随婚嫁、生育、丧葬、出继、入赘而连带调整 —— 详见「传统亲属称谓」各条。</text>
+</svg>

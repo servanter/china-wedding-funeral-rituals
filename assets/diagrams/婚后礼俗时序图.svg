@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 480" width="1280" height="480" role="img" aria-label="婚后礼俗时序图">
+  <title>婚后礼俗时序图</title>
+  <desc>婚后自三日回门、住对月、谢媒、认亲，到生育之礼、分家立户与结婚纪念的时序示意图。</desc>
+
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 8" refX="9" refY="4" markerWidth="9" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,4 L0,8 Z" fill="#C9A97A"/>
+    </marker>
+  </defs>
+
+  <style>
+    text{font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;}
+    .bg{fill:#FFFFFF}
+    .title{font-size:26px;font-weight:700;fill:#2B2B2B}
+    .subtitle{font-size:14px;fill:#7A6A52}
+    .rule{stroke:#E4DDD1;stroke-width:1}
+    .axis{stroke:#D8C7AC;stroke-width:2}
+    .tick{stroke:#D8C7AC;stroke-width:1.5}
+    .card{fill:#FBF8F3;stroke:#D8C7AC;stroke-width:1.5}
+    .ct{font-size:13px;font-weight:700;fill:#3A3126}
+    .cn{font-size:11px;fill:#6E6A62}
+    .tag{font-size:12px;fill:#A08C6E}
+    .caption{font-size:13px;fill:#7A6A52}
+  </style>
+
+  <rect class="bg" x="0" y="0" width="1280" height="480"/>
+
+  <text class="title" x="50" y="58">婚后礼俗时序图</text>
+  <text class="subtitle" x="50" y="86">自「三日回门」至「结婚纪念」，共八节；生育与认亲之礼穿插其间</text>
+  <line class="rule" x1="50" y1="104" x2="1230" y2="104"/>
+
+  <!-- 时间标记 -->
+  <text class="tag" x="90"   y="214" text-anchor="middle">婚后三日</text>
+  <text class="tag" x="247"  y="214" text-anchor="middle">一月内</text>
+  <text class="tag" x="404"  y="214" text-anchor="middle">婚成后</text>
+  <text class="tag" x="561"  y="214" text-anchor="middle">节令</text>
+  <text class="tag" x="718"  y="214" text-anchor="middle">生育后</text>
+  <text class="tag" x="875"  y="214" text-anchor="middle">周岁内</text>
+  <text class="tag" x="1032" y="214" text-anchor="middle">成家后</text>
+  <text class="tag" x="1189" y="214" text-anchor="middle">周年</text>
+
+  <!-- 时间轴 -->
+  <line class="axis" x1="60" y1="230" x2="1220" y2="230" marker-end="url(#arrow)"/>
+  <circle cx="90"   cy="230" r="6" fill="#C9A97A"/>
+  <circle cx="247"  cy="230" r="6" fill="#C9A97A"/>
+  <circle cx="404"  cy="230" r="6" fill="#C9A97A"/>
+  <circle cx="561"  cy="230" r="6" fill="#C9A97A"/>
+  <circle cx="718"  cy="230" r="6" fill="#C9A97A"/>
+  <circle cx="875"  cy="230" r="6" fill="#C9A97A"/>
+  <circle cx="1032" cy="230" r="6" fill="#C9A97A"/>
+  <circle cx="1189" cy="230" r="6" fill="#C9A97A"/>
+
+  <!-- 连接线 -->
+  <line class="tick" x1="90"   y1="236" x2="90"   y2="254"/>
+  <line class="tick" x1="247"  y1="236" x2="247"  y2="336"/>
+  <line class="tick" x1="404"  y1="236" x2="404"  y2="254"/>
+  <line class="tick" x1="561"  y1="236" x2="561"  y2="336"/>
+  <line class="tick" x1="718"  y1="236" x2="718"  y2="254"/>
+  <line class="tick" x1="875"  y1="236" x2="875"  y2="336"/>
+  <line class="tick" x1="1032" y1="236" x2="1032" y2="254"/>
+  <line class="tick" x1="1189" y1="236" x2="1189" y2="336"/>
+
+  <!-- 浅层卡片 -->
+  <rect class="card" x="15"  y="254" width="150" height="66" rx="10"/>
+  <text class="ct" x="90"  y="277" text-anchor="middle">三日回门</text>
+  <text class="cn" x="90"  y="296" text-anchor="middle">婚后第三日</text>
+  <text class="cn" x="90"  y="312" text-anchor="middle">新妇归宁省亲</text>
+
+  <rect class="card" x="329" y="254" width="150" height="66" rx="10"/>
+  <text class="ct" x="404" y="277" text-anchor="middle">谢媒</text>
+  <text class="cn" x="404" y="296" text-anchor="middle">婚成之后</text>
+  <text class="cn" x="404" y="312" text-anchor="middle">以礼谢媒人</text>
+
+  <rect class="card" x="643" y="254" width="150" height="66" rx="10"/>
+  <text class="ct" x="718" y="277" text-anchor="middle">送灯与添丁</text>
+  <text class="cn" x="718" y="296" text-anchor="middle">娘家送灯</text>
+  <text class="cn" x="718" y="312" text-anchor="middle">祈嗣添丁</text>
+
+  <rect class="card" x="957" y="254" width="150" height="66" rx="10"/>
+  <text class="ct" x="1032" y="277" text-anchor="middle">分家与立户</text>
+  <text class="cn" x="1032" y="296" text-anchor="middle">成家立户</text>
+  <text class="cn" x="1032" y="312" text-anchor="middle">析产有约束</text>
+
+  <!-- 深层卡片 -->
+  <rect class="card" x="172" y="336" width="150" height="66" rx="10"/>
+  <text class="ct" x="247" y="359" text-anchor="middle">双回门、住对月</text>
+  <text class="cn" x="247" y="378" text-anchor="middle">夫妇同回女家</text>
+  <text class="cn" x="247" y="394" text-anchor="middle">新妇住满一月</text>
+
+  <rect class="card" x="486" y="336" width="150" height="66" rx="10"/>
+  <text class="ct" x="561" y="359" text-anchor="middle">认亲与走亲</text>
+  <text class="cn" x="561" y="378" text-anchor="middle">新亲往来</text>
+  <text class="cn" x="561" y="394" text-anchor="middle">依节令馈赠</text>
+
+  <rect class="card" x="800" y="336" width="150" height="66" rx="10"/>
+  <text class="ct" x="875" y="359" text-anchor="middle">满月、百日与周岁</text>
+  <text class="cn" x="875" y="378" text-anchor="middle">添丁之后</text>
+  <text class="cn" x="875" y="394" text-anchor="middle">满月百日抓周</text>
+
+  <rect class="card" x="1114" y="336" width="150" height="66" rx="10"/>
+  <text class="ct" x="1189" y="359" text-anchor="middle">结婚纪念与周年</text>
+  <text class="cn" x="1189" y="378" text-anchor="middle">由归宁到</text>
+  <text class="cn" x="1189" y="394" text-anchor="middle">结婚纪念日</text>
+
+  <line class="rule" x1="50" y1="428" x2="1230" y2="428"/>
+  <text class="caption" x="50" y="454">婚后礼俗以「归宁」始、以「纪念」终；谢媒、认亲、添丁诸礼依时序穿插其间，分家立户为传统婚俗之终点。</text>
+</svg>

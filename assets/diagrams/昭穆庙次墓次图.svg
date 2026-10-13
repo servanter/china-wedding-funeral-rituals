@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 450" width="1280" height="450" role="img" aria-label="昭穆庙次墓次图">
+  <title>昭穆庙次墓次图</title>
+  <desc>太祖居中、昭居左、穆居右的昭穆排列示意图，适用于宗庙神主与墓地葬次。</desc>
+
+  <style>
+    text{font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;}
+    .bg{fill:#FFFFFF}
+    .title{font-size:26px;font-weight:700;fill:#2B2B2B}
+    .subtitle{font-size:14px;fill:#7A6A52}
+    .rule{stroke:#E4DDD1;stroke-width:1}
+    .grp{font-size:16px;font-weight:700;fill:#A0764A}
+    .grp-c{font-size:16px;font-weight:700;fill:#8A5A2B}
+    .node{fill:#FBF8F3;stroke:#D8C7AC;stroke-width:1.5}
+    .node-c{fill:#F6EFE4;stroke:#C9A97A;stroke-width:2}
+    .n1{font-size:16px;font-weight:700;fill:#3A3126}
+    .n1-c{font-size:16px;font-weight:700;fill:#8A5A2B}
+    .n2{font-size:11.5px;fill:#8A7E6C}
+    .caption{font-size:12.5px;fill:#7A6A52}
+  </style>
+
+  <rect class="bg" x="0" y="0" width="1280" height="450"/>
+
+  <text class="title" x="50" y="58">昭穆庙次墓次图</text>
+  <text class="subtitle" x="50" y="86">太祖居中，昭居左、穆居右，昭穆相间，以别亲疏、明世次</text>
+  <line class="rule" x1="50" y1="104" x2="1230" y2="104"/>
+
+  <text class="grp" x="310" y="186" text-anchor="middle">昭（左）</text>
+  <text class="grp-c" x="640" y="186" text-anchor="middle">太祖</text>
+  <text class="grp" x="970" y="186" text-anchor="middle">穆（右）</text>
+
+  <rect class="node" x="120" y="210" width="160" height="64" rx="10"/>
+  <text class="n1" x="200" y="238" text-anchor="middle">四世</text>
+  <text class="n2" x="200" y="258" text-anchor="middle">昭 · 左</text>
+
+  <rect class="node" x="340" y="210" width="160" height="64" rx="10"/>
+  <text class="n1" x="420" y="238" text-anchor="middle">二世</text>
+  <text class="n2" x="420" y="258" text-anchor="middle">昭 · 左（近）</text>
+
+  <rect class="node-c" x="560" y="210" width="160" height="64" rx="10"/>
+  <text class="n1-c" x="640" y="238" text-anchor="middle">太祖</text>
+  <text class="n2" x="640" y="258" text-anchor="middle">居中 · 百世不迁</text>
+
+  <rect class="node" x="780" y="210" width="160" height="64" rx="10"/>
+  <text class="n1" x="860" y="238" text-anchor="middle">三世</text>
+  <text class="n2" x="860" y="258" text-anchor="middle">穆 · 右（近）</text>
+
+  <rect class="node" x="1000" y="210" width="160" height="64" rx="10"/>
+  <text class="n1" x="1080" y="238" text-anchor="middle">五世</text>
+  <text class="n2" x="1080" y="258" text-anchor="middle">穆 · 右</text>
+
+  <text class="caption" x="50" y="310">昭穆相间，隔世同列：二世昭、三世穆、四世昭、五世穆；同列者昭穆相同，故隔世而同侧。</text>
+
+  <line class="rule" x1="50" y1="340" x2="1230" y2="340"/>
+  <text class="caption" x="50" y="366">庙次依昭穆：太祖居中，昭穆相间而列，神主之位次由此而定。</text>
+  <text class="caption" x="50" y="392">墓次同制：《周礼·春官·冢人》「先王之葬居中，以昭穆为左右」，昭穆异位，祭亦分日。</text>
+  <text class="caption" x="50" y="418">亲尽则毁：庙数有限，世代既远则迁其神主于祧庙，昭穆之序由此不紊。</text>
+</svg>

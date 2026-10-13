@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 590" width="1280" height="590" role="img" aria-label="嫡庶与继承关系图">
+  <title>嫡庶与继承关系图</title>
+  <desc>嫡子与庶子之别，以及嗣子、养子、兼祧等继承方式的示意图。</desc>
+
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 8" refX="9" refY="4" markerWidth="9" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,4 L0,8 Z" fill="#C9A97A"/>
+    </marker>
+  </defs>
+
+  <style>
+    text{font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;}
+    .bg{fill:#FFFFFF}
+    .title{font-size:26px;font-weight:700;fill:#2B2B2B}
+    .subtitle{font-size:14px;fill:#7A6A52}
+    .rule{stroke:#E4DDD1;stroke-width:1}
+    .top{fill:#F6EFE4;stroke:#C9A97A;stroke-width:2}
+    .top-t{font-size:18px;font-weight:700;fill:#8A5A2B}
+    .top-s{font-size:11.5px;fill:#8A7E6C}
+    .panel{fill:#FBF8F3;stroke:#E0D4C0;stroke-width:1}
+    .h-a{fill:#A0764A}
+    .h-b{fill:#C9A97A}
+    .h-t{font-size:17px;font-weight:700;fill:#FFFFFF}
+    .lb{font-size:12.5px;font-weight:700;fill:#8A6A44}
+    .ln{font-size:12.5px;fill:#4A4A4A}
+    .pill{fill:#F6EFE4;stroke:#DCC7A8;stroke-width:1.5}
+    .pt{font-size:14px;font-weight:700;fill:#8A5A2B}
+    .pn{font-size:11.5px;fill:#6E6A62}
+    .lead{stroke:#C9A97A;stroke-width:1.5;stroke-dasharray:5 4;fill:none}
+    .caption{font-size:12.5px;fill:#7A6A52}
+  </style>
+
+  <rect class="bg" x="0" y="0" width="1280" height="590"/>
+
+  <text class="title" x="50" y="58">嫡庶与继承关系图</text>
+  <text class="subtitle" x="50" y="86">嫡（正妻所生）与庶（妾所生）之别，及嗣子、养子、兼祧诸继承方式</text>
+  <line class="rule" x1="50" y1="104" x2="1230" y2="104"/>
+
+  <rect class="top" x="520" y="140" width="240" height="56" rx="12"/>
+  <text class="top-t" x="640" y="167" text-anchor="middle">父</text>
+  <text class="top-s" x="640" y="186" text-anchor="middle">宗祧之主体</text>
+
+  <polyline class="lead" points="640,196 640,222 380,222 380,246" marker-end="url(#arrow)"/>
+  <polyline class="lead" points="640,196 640,222 900,222 900,246" marker-end="url(#arrow)"/>
+
+  <rect class="panel" x="160" y="250" width="440" height="190" rx="12"/>
+  <rect class="h-a" x="160" y="250" width="440" height="44" rx="12"/>
+  <rect class="h-a" x="160" y="278" width="440" height="16"/>
+  <text class="h-t" x="380" y="279" text-anchor="middle">正妻所生（嫡）</text>
+  <text class="lb" x="184" y="320">嫡长子</text>
+  <text class="ln" x="270" y="320">承宗祧、主祭祀</text>
+  <text class="lb" x="184" y="352">嫡次子</text>
+  <text class="ln" x="270" y="352">别立分支，为小宗</text>
+  <text class="lb" x="184" y="384">嫡女　</text>
+  <text class="ln" x="270" y="384">出嫁从夫，服制有别</text>
+
+  <rect class="panel" x="680" y="250" width="440" height="190" rx="12"/>
+  <rect class="h-b" x="680" y="250" width="440" height="44" rx="12"/>
+  <rect class="h-b" x="680" y="278" width="440" height="16"/>
+  <text class="h-t" x="900" y="279" text-anchor="middle">妾所生（庶）</text>
+  <text class="lb" x="704" y="320">庶子　</text>
+  <text class="ln" x="790" y="320">服制降等，位在嫡下</text>
+  <text class="lb" x="704" y="352">庶女　</text>
+  <text class="ln" x="790" y="352">嫁资与礼仪有差</text>
+  <text class="lb" x="704" y="384">总则　</text>
+  <text class="ln" x="790" y="384">「立嫡以长不以贤」</text>
+
+  <rect class="pill" x="70" y="460" width="360" height="52" rx="10"/>
+  <text class="pt" x="94" y="482">嗣子</text>
+  <text class="pn" x="94" y="500">无子者立同宗昭穆相当者之子</text>
+
+  <rect class="pill" x="460" y="460" width="360" height="52" rx="10"/>
+  <text class="pt" x="484" y="482">养子</text>
+  <text class="pn" x="484" y="500">收养之子，须经族中认可</text>
+
+  <rect class="pill" x="850" y="460" width="360" height="52" rx="10"/>
+  <text class="pt" x="874" y="482">兼祧</text>
+  <text class="pn" x="874" y="500">一子兼承两房之祀（清代明定）</text>
+
+  <line class="rule" x1="50" y1="540" x2="1230" y2="540"/>
+  <text class="caption" x="50" y="566">宗祧继承以嫡长为先；财产继承则「诸子均分」与「长子长孙另留份额」并存，南北各地不一。</text>
+</svg>

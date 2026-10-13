@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 620" width="1280" height="620" role="img" aria-label="属相六合六冲三合图">
+  <title>属相六合六冲三合图</title>
+  <desc>十二地支（生肖）环列，虚线示六冲，并列六合、六冲、三合三组关系。</desc>
+
+  <style>
+    text{font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;}
+    .bg{fill:#FFFFFF}
+    .title{font-size:26px;font-weight:700;fill:#2B2B2B}
+    .subtitle{font-size:14px;fill:#7A6A52}
+    .rule{stroke:#E4DDD1;stroke-width:1}
+    .chong{stroke:#DCC7A8;stroke-width:1.5;stroke-dasharray:5 5}
+    .node{fill:#FBF8F3;stroke:#D8C7AC;stroke-width:1.5}
+    .br{font-size:13px;font-weight:700;fill:#3A3126}
+    .zodiac{font-size:11px;fill:#8A7E6C}
+    .bt{font-size:15px;font-weight:700;fill:#A0764A}
+    .pair{font-size:13px;fill:#4A4A4A}
+    .sep{stroke:#E4DDD1;stroke-width:1}
+    .caption{font-size:12.5px;fill:#7A6A52}
+  </style>
+
+  <rect class="bg" x="0" y="0" width="1280" height="620"/>
+
+  <text class="title" x="50" y="58">属相六合六冲三合图</text>
+  <text class="subtitle" x="50" y="86">十二地支环列，虚线为六冲；合者相生相成，冲者相对相克</text>
+  <line class="rule" x1="50" y1="104" x2="1230" y2="104"/>
+
+  <!-- 六冲虚线 -->
+  <line class="chong" x1="260" y1="210" x2="260" y2="470"/>
+  <line class="chong" x1="325" y1="227.4" x2="195" y2="452.6"/>
+  <line class="chong" x1="372.6" y1="275" x2="147.4" y2="405"/>
+  <line class="chong" x1="390" y1="340" x2="130" y2="340"/>
+  <line class="chong" x1="372.6" y1="405" x2="147.4" y2="275"/>
+  <line class="chong" x1="325" y1="452.6" x2="195" y2="227.4"/>
+
+  <!-- 十二地支节点 -->
+  <circle class="node" cx="260"   cy="210"   r="20"/>
+  <text class="br" x="260"   y="215" text-anchor="middle">子</text>
+  <circle class="node" cx="325"   cy="227.4" r="20"/>
+  <text class="br" x="325"   y="232.4" text-anchor="middle">丑</text>
+  <circle class="node" cx="372.6" cy="275"   r="20"/>
+  <text class="br" x="372.6" y="280" text-anchor="middle">寅</text>
+  <circle class="node" cx="390"   cy="340"   r="20"/>
+  <text class="br" x="390"   y="345" text-anchor="middle">卯</text>
+  <circle class="node" cx="372.6" cy="405"   r="20"/>
+  <text class="br" x="372.6" y="410" text-anchor="middle">辰</text>
+  <circle class="node" cx="325"   cy="452.6" r="20"/>
+  <text class="br" x="325"   y="457.6" text-anchor="middle">巳</text>
+  <circle class="node" cx="260"   cy="470"   r="20"/>
+  <text class="br" x="260"   y="475" text-anchor="middle">午</text>
+  <circle class="node" cx="195"   cy="452.6" r="20"/>
+  <text class="br" x="195"   y="457.6" text-anchor="middle">未</text>
+  <circle class="node" cx="147.4" cy="405"   r="20"/>
+  <text class="br" x="147.4" y="410" text-anchor="middle">申</text>
+  <circle class="node" cx="130"   cy="340"   r="20"/>
+  <text class="br" x="130"   y="345" text-anchor="middle">酉</text>
+  <circle class="node" cx="147.4" cy="275"   r="20"/>
+  <text class="br" x="147.4" y="280" text-anchor="middle">戌</text>
+  <circle class="node" cx="195"   cy="227.4" r="20"/>
+  <text class="br" x="195"   y="232.4" text-anchor="middle">亥</text>
+
+  <!-- 生肖名 -->
+  <text class="zodiac" x="260"   y="184"   text-anchor="middle">鼠</text>
+  <text class="zodiac" x="338"   y="204.9" text-anchor="middle">牛</text>
+  <text class="zodiac" x="395.1" y="262"   text-anchor="middle">虎</text>
+  <text class="zodiac" x="416"   y="340"   text-anchor="middle">兔</text>
+  <text class="zodiac" x="395.1" y="418"   text-anchor="middle">龙</text>
+  <text class="zodiac" x="338"   y="475.1" text-anchor="middle">蛇</text>
+  <text class="zodiac" x="260"   y="496"   text-anchor="middle">马</text>
+  <text class="zodiac" x="182"   y="475.1" text-anchor="middle">羊</text>
+  <text class="zodiac" x="124.9" y="418"   text-anchor="middle">猴</text>
+  <text class="zodiac" x="104"   y="340"   text-anchor="middle">鸡</text>
+  <text class="zodiac" x="124.9" y="262"   text-anchor="middle">狗</text>
+  <text class="zodiac" x="182"   y="204.9" text-anchor="middle">猪</text>
+
+  <!-- 六合 -->
+  <text class="bt" x="620" y="176">六合</text>
+  <line class="sep" x1="620" y1="190" x2="1240" y2="190"/>
+  <text class="pair" x="620" y="222">子 — 丑</text>
+  <text class="pair" x="840" y="222">寅 — 亥</text>
+  <text class="pair" x="1060" y="222">卯 — 戌</text>
+  <text class="pair" x="620" y="254">辰 — 酉</text>
+  <text class="pair" x="840" y="254">巳 — 申</text>
+  <text class="pair" x="1060" y="254">午 — 未</text>
+
+  <!-- 六冲 -->
+  <text class="bt" x="620" y="314">六冲</text>
+  <line class="sep" x1="620" y1="328" x2="1240" y2="328"/>
+  <text class="pair" x="620" y="360">子 — 午</text>
+  <text class="pair" x="840" y="360">丑 — 未</text>
+  <text class="pair" x="1060" y="360">寅 — 申</text>
+  <text class="pair" x="620" y="392">卯 — 酉</text>
+  <text class="pair" x="840" y="392">辰 — 戌</text>
+  <text class="pair" x="1060" y="392">巳 — 亥</text>
+
+  <!-- 三合 -->
+  <text class="bt" x="620" y="452">三合</text>
+  <line class="sep" x1="620" y1="466" x2="1240" y2="466"/>
+  <text class="pair" x="620" y="498">申 — 子 — 辰</text>
+  <text class="pair" x="840" y="498">亥 — 卯 — 未</text>
+  <text class="pair" x="1060" y="498">寅 — 午 — 戌</text>
+  <text class="pair" x="620" y="530">巳 — 酉 — 丑</text>
+
+  <line class="rule" x1="50" y1="560" x2="1230" y2="560"/>
+  <text class="caption" x="50" y="586">民间合婚多取属相之合而避其冲；然古法以八字、纳音为正宗，属相仅其一端，不可执一而论。</text>
+  <text class="caption" x="50" y="610">十二地支亦用于记时：子时二十三至一时，其后每两小时为一辰，依次相推。</text>
+</svg>

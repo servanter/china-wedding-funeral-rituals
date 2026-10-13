@@ -1,0 +1,14 @@
+{
+  "name": "china-wedding-funeral-rituals",
+  "version": "0.1.0",
+  "private": true,
+  "description": "中华传统婚丧礼俗资料库 / Open knowledge base of Chinese traditional wedding and funeral rites",
+  "type": "module",
+  "scripts": {
+    "check": "node scripts/check-structure.mjs",
+    "check:zh": "node scripts/check-structure.mjs --lang zh",
+    "check:en": "node scripts/check-structure.mjs --lang en",
+    "skeleton": "node scripts/generate-skeleton.mjs"
+  },
+  "license": "CC-BY-SA-4.0"
+}

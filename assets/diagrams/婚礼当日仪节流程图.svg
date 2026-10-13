@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 600" width="1280" height="600" role="img" aria-label="婚礼当日仪节流程图">
+  <title>婚礼当日仪节流程图</title>
+  <desc>自亲迎出发至回门归宁的婚礼当日仪节次序示意图，共八节。</desc>
+
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 8" refX="9" refY="4" markerWidth="9" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,4 L0,8 Z" fill="#C9A97A"/>
+    </marker>
+  </defs>
+
+  <style>
+    text{font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;}
+    .bg{fill:#FFFFFF}
+    .title{font-size:26px;font-weight:700;fill:#2B2B2B}
+    .subtitle{font-size:14px;fill:#7A6A52}
+    .rule{stroke:#E4DDD1;stroke-width:1}
+    .panel{fill:#FBF8F3;stroke:#D8C7AC;stroke-width:1.5}
+    .panel-a{fill:#F6EFE4;stroke:#C9A97A;stroke-width:1.5}
+    .num{font-size:13px;font-weight:700;fill:#FFFFFF}
+    .label{font-size:20px;font-weight:700;fill:#3A3126}
+    .gloss{font-size:12.5px;fill:#A08C6E}
+    .note{font-size:12px;fill:#5A5A5A}
+    .caption{font-size:13px;fill:#7A6A52}
+  </style>
+
+  <rect class="bg" x="0" y="0" width="1280" height="600"/>
+
+  <text class="title" x="50" y="58">婚礼当日仪节流程图</text>
+  <text class="subtitle" x="50" y="86">自亲迎出发至回门归宁，共八节；核心成婚礼以赭色标出</text>
+  <line class="rule" x1="50" y1="104" x2="1230" y2="104"/>
+
+  <!-- 第一行：节点 1-4 -->
+  <rect class="panel"   x="50"  y="140" width="250" height="110" rx="12"/>
+  <rect class="panel"   x="360" y="140" width="250" height="110" rx="12"/>
+  <rect class="panel-a" x="670" y="140" width="250" height="110" rx="12"/>
+  <rect class="panel-a" x="980" y="140" width="250" height="110" rx="12"/>
+
+  <circle cx="175"  cy="162" r="13" fill="#C9A97A"/>
+  <text class="num" x="175"  y="167" text-anchor="middle">1</text>
+  <text class="label" x="175"  y="198" text-anchor="middle">亲迎出发</text>
+  <text class="gloss" x="175"  y="218" text-anchor="middle">仪仗鼓乐</text>
+  <text class="note"  x="175"  y="238" text-anchor="middle">新郎率迎亲队伍赴女家</text>
+
+  <circle cx="485"  cy="162" r="13" fill="#C9A97A"/>
+  <text class="num" x="485"  y="167" text-anchor="middle">2</text>
+  <text class="label" x="485"  y="198" text-anchor="middle">拦门开门</text>
+  <text class="gloss" x="485"  y="218" text-anchor="middle">开门利市</text>
+  <text class="note"  x="485"  y="238" text-anchor="middle">女家闭门索红包、对歌赛诗</text>
+
+  <circle cx="795"  cy="162" r="13" fill="#A0764A"/>
+  <text class="num" x="795"  y="167" text-anchor="middle">3</text>
+  <text class="label" x="795"  y="198" text-anchor="middle">拜堂</text>
+  <text class="gloss" x="795"  y="218" text-anchor="middle">三拜礼</text>
+  <text class="note"  x="795"  y="238" text-anchor="middle">一拜天地、二拜高堂、夫妻对拜</text>
+
+  <circle cx="1105" cy="162" r="13" fill="#A0764A"/>
+  <text class="num" x="1105" y="167" text-anchor="middle">4</text>
+  <text class="label" x="1105" y="198" text-anchor="middle">合卺</text>
+  <text class="gloss" x="1105" y="218" text-anchor="middle">交杯酒</text>
+  <text class="note"  x="1105" y="238" text-anchor="middle">剖瓠为二，夫妇各执一瓢而饮</text>
+
+  <!-- 第一行箭头 -->
+  <line x1="300" y1="195" x2="354" y2="195" stroke="#C9A97A" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <line x1="610" y1="195" x2="664" y2="195" stroke="#C9A97A" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <line x1="920" y1="195" x2="974" y2="195" stroke="#C9A97A" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <!-- 折行连接 4 → 5 -->
+  <line x1="1105" y1="250" x2="1105" y2="374" stroke="#C9A97A" stroke-width="1.8" marker-end="url(#arrow)"/>
+
+  <!-- 第二行：节点 5-8（自右向左） -->
+  <rect class="panel-a" x="980" y="380" width="250" height="110" rx="12"/>
+  <rect class="panel-a" x="670" y="380" width="250" height="110" rx="12"/>
+  <rect class="panel-a" x="360" y="380" width="250" height="110" rx="12"/>
+  <rect class="panel"   x="50"  y="380" width="250" height="110" rx="12"/>
+
+  <circle cx="1105" cy="402" r="13" fill="#A0764A"/>
+  <text class="num" x="1105" y="407" text-anchor="middle">5</text>
+  <text class="label" x="1105" y="438" text-anchor="middle">挑盖头、撒帐</text>
+  <text class="gloss" x="1105" y="458" text-anchor="middle">喜秤、喜果</text>
+  <text class="note"  x="1105" y="478" text-anchor="middle">挑盖头，撒枣栗祝多子多福</text>
+
+  <circle cx="795" cy="402" r="13" fill="#A0764A"/>
+  <text class="num" x="795" y="407" text-anchor="middle">6</text>
+  <text class="label" x="795" y="438" text-anchor="middle">坐帐合床</text>
+  <text class="gloss" x="795" y="458" text-anchor="middle">坐帐受贺</text>
+  <text class="note"  x="795" y="478" text-anchor="middle">新人坐帐受贺，然后合床安寝</text>
+
+  <circle cx="485" cy="402" r="13" fill="#C9A97A"/>
+  <text class="num" x="485" y="407" text-anchor="middle">7</text>
+  <text class="label" x="485" y="438" text-anchor="middle">喜宴敬酒</text>
+  <text class="gloss" x="485" y="458" text-anchor="middle">婚宴</text>
+  <text class="note"  x="485" y="478" text-anchor="middle">依座次上菜，新人逐席敬酒</text>
+
+  <circle cx="175" cy="402" r="13" fill="#C9A97A"/>
+  <text class="num" x="175" y="407" text-anchor="middle">8</text>
+  <text class="label" x="175" y="438" text-anchor="middle">回门归宁</text>
+  <text class="gloss" x="175" y="458" text-anchor="middle">婚后三日</text>
+  <text class="note"  x="175" y="478" text-anchor="middle">夫妇同返女家省亲</text>
+
+  <!-- 第二行箭头（向左） -->
+  <line x1="980" y1="435" x2="926" y2="435" stroke="#C9A97A" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <line x1="670" y1="435" x2="616" y2="435" stroke="#C9A97A" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <line x1="360" y1="435" x2="306" y2="435" stroke="#C9A97A" stroke-width="1.8" marker-end="url(#arrow)"/>
+
+  <line class="rule" x1="50" y1="520" x2="1230" y2="520"/>
+  <text class="caption" x="50" y="546">阶段划分：①—② 迎娶 · ③—⑥ 成婚礼 · ⑦ 婚宴 · ⑧ 婚后归宁</text>
+  <text class="caption" x="50" y="572">并行习俗：闹洞房（婚礼当晚）· 见亲戚与分大小（婚后）· 谢媒（婚后）</text>
+</svg>

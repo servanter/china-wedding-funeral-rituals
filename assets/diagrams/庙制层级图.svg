@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 570" width="1280" height="570" role="img" aria-label="庙制层级图">
+  <title>庙制层级图</title>
+  <desc>自天子七庙至庶人无庙而祭于寝的庙制层级与庙数构成示意图。</desc>
+
+  <style>
+    text{font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;}
+    .bg{fill:#FFFFFF}
+    .title{font-size:26px;font-weight:700;fill:#2B2B2B}
+    .subtitle{font-size:14px;fill:#7A6A52}
+    .rule{stroke:#E4DDD1;stroke-width:1}
+    .rank{font-size:16px;font-weight:700;fill:#3A3126}
+    .cnt-w{font-size:17px;font-weight:700;fill:#FFFFFF}
+    .cnt-d{font-size:17px;font-weight:700;fill:#3A3126}
+    .note{font-size:12.5px;fill:#6E6A62}
+    .caption{font-size:12.5px;fill:#7A6A52}
+  </style>
+
+  <rect class="bg" x="0" y="0" width="1280" height="570"/>
+
+  <text class="title" x="50" y="58">庙制层级图</text>
+  <text class="subtitle" x="50" y="86">自天子七庙至庶人无庙，庙数即身份之等；「亲尽则毁」为其总原则</text>
+  <line class="rule" x1="50" y1="104" x2="1230" y2="104"/>
+
+  <text class="rank" x="180" y="186" text-anchor="end">天子</text>
+  <rect x="200" y="150" width="620" height="56" rx="10" fill="#A0764A"/>
+  <text class="cnt-w" x="228" y="186">七庙</text>
+  <text class="note" x="852" y="186">始祖 ＋ 二祧 ＋ 四亲庙</text>
+
+  <text class="rank" x="180" y="250" text-anchor="end">诸侯</text>
+  <rect x="200" y="214" width="480" height="56" rx="10" fill="#B98D5E"/>
+  <text class="cnt-w" x="228" y="250">五庙</text>
+  <text class="note" x="852" y="250">始祖 ＋ 二祧 ＋ 二亲庙</text>
+
+  <text class="rank" x="180" y="314" text-anchor="end">大夫</text>
+  <rect x="200" y="278" width="340" height="56" rx="10" fill="#C9A97A"/>
+  <text class="cnt-w" x="228" y="314">三庙</text>
+  <text class="note" x="852" y="314">曾祖、祖、祢</text>
+
+  <text class="rank" x="180" y="378" text-anchor="end">士</text>
+  <rect x="200" y="342" width="200" height="56" rx="10" fill="#E3CDB0"/>
+  <text class="cnt-d" x="228" y="378">一庙</text>
+  <text class="note" x="852" y="378">祢庙</text>
+
+  <text class="rank" x="180" y="442" text-anchor="end">庶人</text>
+  <rect x="200" y="406" width="200" height="56" rx="10" fill="#F2E7D8" stroke="#DCC7A8" stroke-width="1.5"/>
+  <text class="cnt-d" x="228" y="442">无庙</text>
+  <text class="note" x="852" y="442">祭于寝；宋以后士庶皆得立祠堂</text>
+
+  <line class="rule" x1="50" y1="490" x2="1230" y2="490"/>
+  <text class="caption" x="50" y="516">「亲尽则毁」：庙数有限，世代既远则迁其神主于祧庙，四亲庙随世代递迁。</text>
+  <text class="caption" x="50" y="542">宋《家礼》变通古制，许士庶立祠堂于正寝之东，祭祖之制自此下移民间，明清宗祠遂遍于城乡。</text>
+</svg>

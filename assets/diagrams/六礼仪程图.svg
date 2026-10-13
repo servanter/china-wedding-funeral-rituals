@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 400" width="1280" height="400" role="img" aria-label="六礼仪程图">
+  <title>六礼仪程图</title>
+  <desc>《仪礼·士昏礼》所载纳采、问名、纳吉、纳征、请期、亲迎六道程序的先后次序示意图。</desc>
+
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 8" refX="9" refY="4" markerWidth="9" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,4 L0,8 Z" fill="#C9A97A"/>
+    </marker>
+  </defs>
+
+  <style>
+    .bg      { fill:#FFFFFF; }
+    .title   { font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+               font-size:26px; font-weight:700; fill:#2B2B2B; }
+    .subtitle{ font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+               font-size:14px; fill:#7A6A52; }
+    .node    { fill:#FBF8F3; stroke:#D8C7AC; stroke-width:1.5; rx:12; }
+    .ordinal { font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+               font-size:12px; fill:#A08C6E; letter-spacing:1px; }
+    .label   { font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+               font-size:21px; font-weight:700; fill:#3A3126; }
+    .gloss   { font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+               font-size:12.5px; fill:#8A7E6C; }
+    .note    { font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+               font-size:12px; fill:#5A5A5A; }
+    .caption { font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+               font-size:13px; fill:#7A6A52; }
+    .rule    { stroke:#E4DDD1; stroke-width:1; }
+  </style>
+
+  <rect class="bg" x="0" y="0" width="1280" height="400"/>
+
+  <text class="title" x="67" y="58">六礼仪程图</text>
+  <text class="subtitle" x="67" y="86">《仪礼·士昏礼》所载纳采、问名、纳吉、纳征、请期、亲迎六道程序</text>
+  <line class="rule" x1="67" y1="104" x2="1213" y2="104"/>
+
+  <!-- 节点 -->
+  <rect class="node" x="67"   y="140" width="156" height="96"/>
+  <rect class="node" x="265"  y="140" width="156" height="96"/>
+  <rect class="node" x="463"  y="140" width="156" height="96"/>
+  <rect class="node" x="661"  y="140" width="156" height="96"/>
+  <rect class="node" x="859"  y="140" width="156" height="96"/>
+  <rect class="node" x="1057" y="140" width="156" height="96"/>
+
+  <!-- 连接箭头 -->
+  <line x1="229" y1="188" x2="259" y2="188" stroke="#C9A97A" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <line x1="427" y1="188" x2="457" y2="188" stroke="#C9A97A" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <line x1="625" y1="188" x2="655" y2="188" stroke="#C9A97A" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <line x1="823" y1="188" x2="853" y2="188" stroke="#C9A97A" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <line x1="1021" y1="188" x2="1051" y2="188" stroke="#C9A97A" stroke-width="1.8" marker-end="url(#arrow)"/>
+
+  <!-- 一、纳采 -->
+  <text class="ordinal" x="145" y="176" text-anchor="middle">第一礼</text>
+  <text class="label"   x="145" y="204" text-anchor="middle">纳采</text>
+  <text class="gloss"   x="145" y="226" text-anchor="middle">以雁为贽</text>
+  <text class="note"    x="145" y="262" text-anchor="middle">男家遣媒提亲</text>
+  <text class="note"    x="145" y="282" text-anchor="middle">贽用雁，取顺阴阳之义</text>
+
+  <!-- 二、问名 -->
+  <text class="ordinal" x="343" y="176" text-anchor="middle">第二礼</text>
+  <text class="label"   x="343" y="204" text-anchor="middle">问名</text>
+  <text class="gloss"   x="343" y="226" text-anchor="middle">问名与庚</text>
+  <text class="note"    x="343" y="262" text-anchor="middle">问女之名与生辰</text>
+  <text class="note"    x="343" y="282" text-anchor="middle">归而卜其吉凶</text>
+
+  <!-- 三、纳吉 -->
+  <text class="ordinal" x="541" y="176" text-anchor="middle">第三礼</text>
+  <text class="label"   x="541" y="204" text-anchor="middle">纳吉</text>
+  <text class="gloss"   x="541" y="226" text-anchor="middle">卜而得吉</text>
+  <text class="note"    x="541" y="262" text-anchor="middle">卜得吉兆</text>
+  <text class="note"    x="541" y="282" text-anchor="middle">告女家，婚约遂定</text>
+
+  <!-- 四、纳征 -->
+  <text class="ordinal" x="739" y="176" text-anchor="middle">第四礼</text>
+  <text class="label"   x="739" y="204" text-anchor="middle">纳征</text>
+  <text class="gloss"   x="739" y="226" text-anchor="middle">纳币定婚</text>
+  <text class="note"    x="739" y="262" text-anchor="middle">致送玄纁束帛、俪皮</text>
+  <text class="note"    x="739" y="282" text-anchor="middle">即后世「下聘」「过大礼」</text>
+
+  <!-- 五、请期 -->
+  <text class="ordinal" x="937" y="176" text-anchor="middle">第五礼</text>
+  <text class="label"   x="937" y="204" text-anchor="middle">请期</text>
+  <text class="gloss"   x="937" y="226" text-anchor="middle">请定婚期</text>
+  <text class="note"    x="937" y="262" text-anchor="middle">男家议定婚期</text>
+  <text class="note"    x="937" y="282" text-anchor="middle">请女家允准</text>
+
+  <!-- 六、亲迎 -->
+  <text class="ordinal" x="1135" y="176" text-anchor="middle">第六礼</text>
+  <text class="label"   x="1135" y="204" text-anchor="middle">亲迎</text>
+  <text class="gloss"   x="1135" y="226" text-anchor="middle">新郎亲往</text>
+  <text class="note"    x="1135" y="262" text-anchor="middle">新郎亲往迎娶</text>
+  <text class="note"    x="1135" y="282" text-anchor="middle">六礼之成</text>
+
+  <line class="rule" x1="67" y1="326" x2="1213" y2="326"/>
+  <text class="caption" x="67" y="356">六礼以纳采始、亲迎成。宋代以后多省并为纳采、纳币、亲迎三礼，问名、纳吉、请期并入其中。</text>
+</svg>

@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="1280" height="640" role="img" aria-label="择吉方位图">
+  <title>择吉方位图</title>
+  <desc>八卦方位与喜神方、三煞方示意图，上为北、下为南，并附择方术语说明。</desc>
+
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 8" refX="9" refY="4" markerWidth="9" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,4 L0,8 Z" fill="#A0764A"/>
+    </marker>
+  </defs>
+
+  <style>
+    text{font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;}
+    .bg{fill:#FFFFFF}
+    .title{font-size:26px;font-weight:700;fill:#2B2B2B}
+    .subtitle{font-size:14px;fill:#7A6A52}
+    .rule{stroke:#E4DDD1;stroke-width:1}
+    .sector{fill:#EFE3D3}
+    .ring{fill:none;stroke:#D8C7AC;stroke-width:1.5}
+    .spoke{stroke:#E0D4C0;stroke-width:1.2}
+    .gua{font-size:12px;fill:#8A7E6C}
+    .sec-t{font-size:11.5px;font-weight:700;fill:#A0764A}
+    .anno{font-size:13px;font-weight:700;fill:#8A5A2B}
+    .an-t{font-size:13.5px;font-weight:700;fill:#A0764A}
+    .an-n{font-size:12px;fill:#6E6A62}
+    .sep{stroke:#E4DDD1;stroke-width:1}
+    .caption{font-size:12.5px;fill:#7A6A52}
+  </style>
+
+  <rect class="bg" x="0" y="0" width="1280" height="640"/>
+
+  <text class="title" x="50" y="58">择吉方位图</text>
+  <text class="subtitle" x="50" y="86">八卦方位示意（上为北、下为南）；婚嫁出行择「喜神方」、避「三煞方」</text>
+  <line class="rule" x1="50" y1="104" x2="1230" y2="104"/>
+
+  <!-- 三煞扇区（离·南） -->
+  <path class="sector" d="M320,340 L377.4,478.6 A150,150 0 0 1 262.6,478.6 Z"/>
+  <text class="sec-t" x="320" y="452" text-anchor="middle">三煞方（例）</text>
+
+  <!-- 八卦方位环 -->
+  <circle class="ring" cx="320" cy="340" r="150"/>
+  <line class="spoke" x1="320" y1="340" x2="320" y2="190"/>
+  <line class="spoke" x1="320" y1="340" x2="426.1" y2="233.9"/>
+  <line class="spoke" x1="320" y1="340" x2="470" y2="340"/>
+  <line class="spoke" x1="320" y1="340" x2="426.1" y2="446.1"/>
+  <line class="spoke" x1="320" y1="340" x2="320" y2="490"/>
+  <line class="spoke" x1="320" y1="340" x2="213.9" y2="446.1"/>
+  <line class="spoke" x1="320" y1="340" x2="170" y2="340"/>
+  <line class="spoke" x1="320" y1="340" x2="213.9" y2="233.9"/>
+
+  <text class="gua" x="320"   y="148" text-anchor="middle">坎　北</text>
+  <text class="gua" x="512"   y="340" text-anchor="middle">震　东</text>
+  <text class="gua" x="455.8" y="475.8" text-anchor="middle">巽　东南</text>
+  <text class="gua" x="320"   y="532" text-anchor="middle">离　南</text>
+  <text class="gua" x="184.2" y="475.8" text-anchor="middle">坤　西南</text>
+  <text class="gua" x="128"   y="340" text-anchor="middle">兑　西</text>
+  <text class="gua" x="184.2" y="204.2" text-anchor="middle">乾　西北</text>
+
+  <!-- 喜神方（艮·东北） -->
+  <line x1="426.1" y1="233.9" x2="472" y2="188" stroke="#A0764A" stroke-width="2.2" marker-end="url(#arrow)"/>
+  <text class="anno" x="484" y="192">艮 · 喜神方</text>
+
+  <!-- 术语说明 -->
+  <text class="an-t" x="620" y="170">喜神方</text>
+  <text class="an-n" x="620" y="192">依日干支推得，迎亲出发宜朝向此方</text>
+  <line class="sep" x1="620" y1="212" x2="1240" y2="212"/>
+
+  <text class="an-t" x="620" y="242">三煞方</text>
+  <text class="an-n" x="620" y="264">依年支推得，嫁娶、动土忌经行或朝向</text>
+  <line class="sep" x1="620" y1="284" x2="1240" y2="284"/>
+
+  <text class="an-t" x="620" y="314">岁破方</text>
+  <text class="an-n" x="620" y="336">与太岁相冲之方，忌动土、迁徙</text>
+  <line class="sep" x1="620" y1="356" x2="1240" y2="356"/>
+
+  <text class="an-t" x="620" y="386">冲煞</text>
+  <text class="an-n" x="620" y="408">生肖相冲者回避上轿、下轿、进房</text>
+  <line class="sep" x1="620" y1="428" x2="1240" y2="428"/>
+
+  <text class="an-t" x="620" y="458">周堂图</text>
+  <text class="an-n" x="620" y="480">择日避「妨翁姑」「妨夫」「妨妇」等日</text>
+  <line class="sep" x1="620" y1="500" x2="1240" y2="500"/>
+
+  <text class="an-t" x="620" y="530">定向</text>
+  <text class="an-n" x="620" y="552">丧葬下葬以罗盘定向、分金坐度为准</text>
+
+  <line class="rule" x1="50" y1="580" x2="1230" y2="580"/>
+  <text class="caption" x="50" y="606">择方之术源自汉代式盘与《日书》，清代《协纪辨方书》定其体系；今民间多依通书宜忌为断。</text>
+</svg>

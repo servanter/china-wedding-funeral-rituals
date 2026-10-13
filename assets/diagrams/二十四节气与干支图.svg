@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 560" width="1280" height="560" role="img" aria-label="二十四节气与干支图">
+  <title>二十四节气与干支图</title>
+  <desc>春夏秋冬四季各六节气，以及干支纪年、纪日、纪时与婚丧择日的关系示意图。</desc>
+
+  <style>
+    text{font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;}
+    .bg{fill:#FFFFFF}
+    .title{font-size:26px;font-weight:700;fill:#2B2B2B}
+    .subtitle{font-size:14px;fill:#7A6A52}
+    .rule{stroke:#E4DDD1;stroke-width:1}
+    .head{fill:#F6EFE4;stroke:#C9A97A;stroke-width:1.5}
+    .head-t{font-size:15px;font-weight:700;fill:#3A3126}
+    .panel{fill:#FBF8F3;stroke:#E0D4C0;stroke-width:1}
+    .sep{stroke:#EAE3D8;stroke-width:1}
+    .q{font-size:13.5px;font-weight:700;fill:#3A3126}
+    .qn{font-size:11px;fill:#6E6A62}
+    .qn-m{font-size:11px;font-weight:700;fill:#A0764A}
+    .caption{font-size:12.5px;fill:#7A6A52}
+  </style>
+
+  <rect class="bg" x="0" y="0" width="1280" height="560"/>
+
+  <text class="title" x="50" y="58">二十四节气与干支图</text>
+  <text class="subtitle" x="50" y="86">二十四节气指导农事与礼俗；干支六十循环，用以纪年、纪日、纪时，为择日之基</text>
+  <line class="rule" x1="50" y1="104" x2="1230" y2="104"/>
+
+  <!-- 春 -->
+  <rect class="head" x="30" y="140" width="290" height="44" rx="10"/>
+  <text class="head-t" x="175" y="168" text-anchor="middle">春季 · 立春至谷雨</text>
+  <rect class="panel" x="30" y="192" width="290" height="278" rx="12"/>
+  <text class="q" x="50" y="224">立春</text><text class="qn" x="140" y="224">春之始，岁首</text>
+  <line class="sep" x1="46" y1="244" x2="304" y2="244"/>
+  <text class="q" x="50" y="268">雨水</text><text class="qn" x="140" y="268">降水渐多</text>
+  <line class="sep" x1="46" y1="288" x2="304" y2="288"/>
+  <text class="q" x="50" y="312">惊蛰</text><text class="qn" x="140" y="312">雷动虫出</text>
+  <line class="sep" x1="46" y1="332" x2="304" y2="332"/>
+  <text class="q" x="50" y="356">春分</text><text class="qn" x="140" y="356">昼夜均分</text>
+  <line class="sep" x1="46" y1="376" x2="304" y2="376"/>
+  <text class="q" x="50" y="400">清明</text><text class="qn-m" x="140" y="400">★ 扫墓祭祖</text>
+  <line class="sep" x1="46" y1="420" x2="304" y2="420"/>
+  <text class="q" x="50" y="444">谷雨</text><text class="qn" x="140" y="444">雨生百谷</text>
+
+  <!-- 夏 -->
+  <rect class="head" x="340" y="140" width="290" height="44" rx="10"/>
+  <text class="head-t" x="485" y="168" text-anchor="middle">夏季 · 立夏至大暑</text>
+  <rect class="panel" x="340" y="192" width="290" height="278" rx="12"/>
+  <text class="q" x="360" y="224">立夏</text><text class="qn" x="450" y="224">夏之始</text>
+  <line class="sep" x1="356" y1="244" x2="614" y2="244"/>
+  <text class="q" x="360" y="268">小满</text><text class="qn" x="450" y="268">麦粒渐满</text>
+  <line class="sep" x1="356" y1="288" x2="614" y2="288"/>
+  <text class="q" x="360" y="312">芒种</text><text class="qn" x="450" y="312">忙收忙种</text>
+  <line class="sep" x1="356" y1="332" x2="614" y2="332"/>
+  <text class="q" x="360" y="356">夏至</text><text class="qn" x="450" y="356">昼最长</text>
+  <line class="sep" x1="356" y1="376" x2="614" y2="376"/>
+  <text class="q" x="360" y="400">小暑</text><text class="qn" x="450" y="400">暑气渐盛</text>
+  <line class="sep" x1="356" y1="420" x2="614" y2="420"/>
+  <text class="q" x="360" y="444">大暑</text><text class="qn" x="450" y="444">一年最热</text>
+
+  <!-- 秋 -->
+  <rect class="head" x="650" y="140" width="290" height="44" rx="10"/>
+  <text class="head-t" x="795" y="168" text-anchor="middle">秋季 · 立秋至霜降</text>
+  <rect class="panel" x="650" y="192" width="290" height="278" rx="12"/>
+  <text class="q" x="670" y="224">立秋</text><text class="qn" x="760" y="224">秋之始</text>
+  <line class="sep" x1="666" y1="244" x2="924" y2="244"/>
+  <text class="q" x="670" y="268">处暑</text><text class="qn" x="760" y="268">暑气止</text>
+  <line class="sep" x1="666" y1="288" x2="924" y2="288"/>
+  <text class="q" x="670" y="312">白露</text><text class="qn" x="760" y="312">露凝为白</text>
+  <line class="sep" x1="666" y1="332" x2="924" y2="332"/>
+  <text class="q" x="670" y="356">秋分</text><text class="qn" x="760" y="356">昼夜均分</text>
+  <line class="sep" x1="666" y1="376" x2="924" y2="376"/>
+  <text class="q" x="670" y="400">寒露</text><text class="qn" x="760" y="400">露寒将霜</text>
+  <line class="sep" x1="666" y1="420" x2="924" y2="420"/>
+  <text class="q" x="670" y="444">霜降</text><text class="qn" x="760" y="444">初霜降</text>
+
+  <!-- 冬 -->
+  <rect class="head" x="960" y="140" width="290" height="44" rx="10"/>
+  <text class="head-t" x="1105" y="168" text-anchor="middle">冬季 · 立冬至大寒</text>
+  <rect class="panel" x="960" y="192" width="290" height="278" rx="12"/>
+  <text class="q" x="980" y="224">立冬</text><text class="qn" x="1070" y="224">冬之始</text>
+  <line class="sep" x1="976" y1="244" x2="1234" y2="244"/>
+  <text class="q" x="980" y="268">小雪</text><text class="qn" x="1070" y="268">初雪</text>
+  <line class="sep" x1="976" y1="288" x2="1234" y2="288"/>
+  <text class="q" x="980" y="312">大雪</text><text class="qn" x="1070" y="312">雪盛</text>
+  <line class="sep" x1="976" y1="332" x2="1234" y2="332"/>
+  <text class="q" x="980" y="356">冬至</text><text class="qn-m" x="1070" y="356">★ 昼最短，祭祖</text>
+  <line class="sep" x1="976" y1="376" x2="1234" y2="376"/>
+  <text class="q" x="980" y="400">小寒</text><text class="qn" x="1070" y="400">寒气渐盛</text>
+  <line class="sep" x1="976" y1="420" x2="1234" y2="420"/>
+  <text class="q" x="980" y="444">大寒</text><text class="qn" x="1070" y="444">一年最冷</text>
+
+  <line class="rule" x1="50" y1="500" x2="1230" y2="500"/>
+  <text class="caption" x="50" y="526">干支：十天干（甲乙丙丁戊己庚辛壬癸）与十二地支（子丑寅卯辰巳午未申酉戌亥）相配，六十为一周。</text>
+  <text class="caption" x="50" y="550">婚丧择日以农历、干支与历注为据；「无春年」忌嫁之说，实为历法现象之附会。</text>
+</svg>

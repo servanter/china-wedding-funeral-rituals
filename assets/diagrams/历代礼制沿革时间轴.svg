@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 570" width="1280" height="570" role="img" aria-label="历代礼制沿革时间轴">
+  <title>历代礼制沿革时间轴</title>
+  <desc>自周至清，历代礼典的编纂与婚丧制度的沿革示意图。</desc>
+
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 8" refX="9" refY="4" markerWidth="9" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,4 L0,8 Z" fill="#C9A97A"/>
+    </marker>
+  </defs>
+
+  <style>
+    text{font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;}
+    .bg{fill:#FFFFFF}
+    .title{font-size:26px;font-weight:700;fill:#2B2B2B}
+    .subtitle{font-size:14px;fill:#7A6A52}
+    .rule{stroke:#E4DDD1;stroke-width:1}
+    .axis{stroke:#D8C7AC;stroke-width:2}
+    .tick{stroke:#D8C7AC;stroke-width:1.5}
+    .dyn{font-size:15px;font-weight:700;fill:#A0764A}
+    .era{font-size:11px;fill:#A08C6E}
+    .card{fill:#FBF8F3;stroke:#D8C7AC;stroke-width:1.5}
+    .ct{font-size:13px;font-weight:700;fill:#3A3126}
+    .cn{font-size:11.5px;fill:#6E6A62}
+    .caption{font-size:12.5px;fill:#7A6A52}
+  </style>
+
+  <rect class="bg" x="0" y="0" width="1280" height="570"/>
+
+  <text class="title" x="50" y="58">历代礼制沿革时间轴</text>
+  <text class="subtitle" x="50" y="86">自周至清，礼制由「不下庶人」转为「礼下庶人」，由国家典礼向民间日用扩展</text>
+  <line class="rule" x1="50" y1="104" x2="1230" y2="104"/>
+
+  <text class="dyn" x="110"  y="196" text-anchor="middle">周</text>
+  <text class="era" x="110"  y="216" text-anchor="middle">西周—春秋</text>
+  <text class="dyn" x="322"  y="196" text-anchor="middle">汉</text>
+  <text class="era" x="322"  y="216" text-anchor="middle">前206—220</text>
+  <text class="dyn" x="534"  y="196" text-anchor="middle">唐</text>
+  <text class="era" x="534"  y="216" text-anchor="middle">618—907</text>
+  <text class="dyn" x="746"  y="196" text-anchor="middle">宋</text>
+  <text class="era" x="746"  y="216" text-anchor="middle">960—1279</text>
+  <text class="dyn" x="958"  y="196" text-anchor="middle">明</text>
+  <text class="era" x="958"  y="216" text-anchor="middle">1368—1644</text>
+  <text class="dyn" x="1170" y="196" text-anchor="middle">清</text>
+  <text class="era" x="1170" y="216" text-anchor="middle">1644—1912</text>
+
+  <line class="axis" x1="60" y1="230" x2="1220" y2="230" marker-end="url(#arrow)"/>
+  <circle cx="110"  cy="230" r="6" fill="#C9A97A"/>
+  <circle cx="322"  cy="230" r="6" fill="#C9A97A"/>
+  <circle cx="534"  cy="230" r="6" fill="#C9A97A"/>
+  <circle cx="746"  cy="230" r="6" fill="#C9A97A"/>
+  <circle cx="958"  cy="230" r="6" fill="#C9A97A"/>
+  <circle cx="1170" cy="230" r="6" fill="#C9A97A"/>
+
+  <line class="tick" x1="110"  y1="236" x2="110"  y2="254"/>
+  <line class="tick" x1="322"  y1="236" x2="322"  y2="360"/>
+  <line class="tick" x1="534"  y1="236" x2="534"  y2="254"/>
+  <line class="tick" x1="746"  y1="236" x2="746"  y2="360"/>
+  <line class="tick" x1="958"  y1="236" x2="958"  y2="254"/>
+  <line class="tick" x1="1170" y1="236" x2="1170" y2="360"/>
+
+  <rect class="card" x="12"   y="254" width="196" height="86" rx="10"/>
+  <text class="ct" x="20" y="278">《周礼》《仪礼》</text>
+  <text class="cn" x="20" y="298">确立六礼、五服</text>
+  <text class="cn" x="20" y="314">礼制之原型</text>
+  <text class="cn" x="20" y="330">「礼不下庶人」</text>
+
+  <rect class="card" x="224"  y="360" width="196" height="86" rx="10"/>
+  <text class="ct" x="232" y="384">《白虎通义》</text>
+  <text class="cn" x="232" y="404">礼制儒化</text>
+  <text class="cn" x="232" y="420">叔孙通制朝仪</text>
+  <text class="cn" x="232" y="436">丧服入律</text>
+
+  <rect class="card" x="436"  y="254" width="196" height="86" rx="10"/>
+  <text class="ct" x="444" y="278">《大唐开元礼》</text>
+  <text class="cn" x="444" y="298">品官婚丧有制</text>
+  <text class="cn" x="444" y="314">现存最早官礼</text>
+  <text class="cn" x="444" y="330">五礼编次定型</text>
+
+  <rect class="card" x="648"  y="360" width="196" height="86" rx="10"/>
+  <text class="ct" x="656" y="384">《书仪》《家礼》</text>
+  <text class="cn" x="656" y="404">礼下庶人</text>
+  <text class="cn" x="656" y="420">家礼取代官礼</text>
+  <text class="cn" x="656" y="436">祠堂之制</text>
+
+  <rect class="card" x="860"  y="254" width="196" height="86" rx="10"/>
+  <text class="ct" x="868" y="278">《大明集礼》</text>
+  <text class="cn" x="868" y="298">庶民礼制</text>
+  <text class="cn" x="868" y="314">宗族礼制</text>
+  <text class="cn" x="868" y="330">乡约推行</text>
+
+  <rect class="card" x="1072" y="360" width="196" height="86" rx="10"/>
+  <text class="ct" x="1080" y="384">《大清通礼》</text>
+  <text class="cn" x="1080" y="404">满汉合礼</text>
+  <text class="cn" x="1080" y="420">传统礼制集成</text>
+  <text class="cn" x="1080" y="436">近代礼制瓦解</text>
+
+  <line class="rule" x1="50" y1="490" x2="1230" y2="490"/>
+  <text class="caption" x="50" y="516">两大趋势：一是「礼不下庶人」转为「礼下庶人」，二是国家典礼向民间日用扩展。</text>
+  <text class="caption" x="50" y="542">官修礼典（唐、明、清）与私人礼书（宋《书仪》《家礼》）并行，后者于民间影响尤深。</text>
+</svg>

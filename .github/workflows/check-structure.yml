@@ -1,0 +1,32 @@
+name: check-structure
+
+on:
+  push:
+    branches: ['**']
+  pull_request:
+
+jobs:
+  check:
+    name: 校验目录结构与条目规范
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+
+      - name: 安装 Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: 运行结构校验
+        run: node scripts/check-structure.mjs
+
+      - name: 运行英文索引层校验
+        run: node scripts/check-structure.mjs --lang en
+
+      - name: 统计条目数量
+        run: |
+          echo "三级条目文档总数：$(find docs -name '*.md' ! -name 'README.md' | wc -l)"
+          echo "二级分类目录总数：$(find docs -mindepth 2 -maxdepth 2 -type d | wc -l)"
+          echo "已英译条目文档数：$(find en/docs -name '*.md' ! -name 'README.md' | wc -l)"
+          echo "英文索引 README 数：$(find en/docs README.en.md -name 'README.md' -o -name 'README.en.md' | wc -l)"
