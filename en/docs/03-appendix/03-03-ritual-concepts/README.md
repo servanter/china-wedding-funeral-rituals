@@ -33,10 +33,4 @@ Concepts of the ritual order such as the five categories of rites, lineage law a
 | 03-03-19 | [Fieldwork and Documentation in Folk Studies](./19-fieldwork-and-documentation-in-folk-studies.md) | Methods of interview, observation and recording, and the compilation of oral history. | English |
 | 03-03-20 | [Contemporary Change in Wedding and Funeral Custom](./20-contemporary-change-in-custom.md) | Change under urbanisation, simplified ceremonial and the safeguarding of intangible heritage. | English |
 
-## Conventions
-
-- Entry files here are named `<two-digit index>-<english-slug>.md`; the index matches the entry’s position in the directory, and the corresponding Chinese original carries the same index under `docs/`.
-- The Chinese corpus under `docs/` is the authoritative text; files here are translations of it.
-- After adding or changing entries, run `node scripts/generate-skeleton.mjs` and `node scripts/check-structure.mjs`.
-
 [← Back to Appendices](../README.md) · [Chinese index](../../../../docs/03-appendix/03-03-ritual-concepts/README.md) · [Repository home](../../../../README.md)

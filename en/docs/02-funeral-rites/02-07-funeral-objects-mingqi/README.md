@@ -28,10 +28,4 @@ Coffins, mingqi, paper offerings, grave stelae and ritual instruments, with thei
 | 02-07-14 | [Land Purchase Deeds and Notices to the Underworld](./14-underworld-land-deeds-and-notices.md) | The textual format and religious meaning of land deeds and notices addressed to the netherworld. | English |
 | 02-07-15 | [Contemporary Funeral Supplies](./15-contemporary-funeral-supplies.md) | Urns, wreaths, electronic offerings and other modern funeral goods. | English |
 
-## Conventions
-
-- Entry files here are named `<two-digit index>-<english-slug>.md`; the index matches the entry’s position in the directory, and the corresponding Chinese original carries the same index under `docs/`.
-- The Chinese corpus under `docs/` is the authoritative text; files here are translations of it.
-- After adding or changing entries, run `node scripts/generate-skeleton.mjs` and `node scripts/check-structure.mjs`.
-
 [← Back to Funeral Rites (Xiongli, the Rites of Mourning)](../README.md) · [Chinese index](../../../../docs/02-funeral-rites/02-07-funeral-objects-mingqi/README.md) · [Repository home](../../../../README.md)

@@ -45,10 +45,4 @@ Provincial units, together with the Cantonese, Chaoshan, Hakka, Huizhou and Minn
 | 01-08-31 | [Taiwan Marriage Customs](./31-taiwan-marriage-customs.md) | Rituals, objects, taboos and local variants of Han Chinese marriage custom in Taiwan. | English |
 | 01-08-32 | [Hong Kong and Macau Marriage Customs](./32-hong-kong-and-macau-marriage-customs.md) | Rituals, objects, taboos and local variants of Han Chinese marriage custom in Hong Kong and Macau. | English |
 
-## Conventions
-
-- Entry files here are named `<two-digit index>-<english-slug>.md`; the index matches the entry’s position in the directory, and the corresponding Chinese original carries the same index under `docs/`.
-- The Chinese corpus under `docs/` is the authoritative text; files here are translations of it.
-- After adding or changing entries, run `node scripts/generate-skeleton.mjs` and `node scripts/check-structure.mjs`.
-
 [← Back to Marriage Rites (Jiali, the Rites of Festivity)](../README.md) · [Chinese index](../../../../docs/01-marriage-rites/01-08-han-regional-variants/README.md) · [Repository home](../../../../README.md)

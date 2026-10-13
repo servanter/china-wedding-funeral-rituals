@@ -28,10 +28,4 @@ The complete process of raising the coffin, the procession, roadside offerings, 
 | 02-04-14 | [Returning the Spirit and Acknowledging Thanks](./14-returning-the-spirit-and-acknowledging-thanks.md) | The rites of bringing the spirit home, installing it, and thanking the mourners and helpers. | English |
 | 02-04-15 | [Modern Funeral Services and Cremation](./15-modern-funeral-and-cremation.md) | The modern sequence of transporting the body, holding a farewell ceremony, and cremation. | English |
 
-## Conventions
-
-- Entry files here are named `<two-digit index>-<english-slug>.md`; the index matches the entry’s position in the directory, and the corresponding Chinese original carries the same index under `docs/`.
-- The Chinese corpus under `docs/` is the authoritative text; files here are translations of it.
-- After adding or changing entries, run `node scripts/generate-skeleton.mjs` and `node scripts/check-structure.mjs`.
-
 [← Back to Funeral Rites (Xiongli, the Rites of Mourning)](../README.md) · [Chinese index](../../../../docs/02-funeral-rites/02-04-funeral-procession-burial/README.md) · [Repository home](../../../../README.md)

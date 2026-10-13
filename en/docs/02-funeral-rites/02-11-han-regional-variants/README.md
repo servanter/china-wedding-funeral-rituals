@@ -45,10 +45,4 @@ Provincial units, together with the Huizhou, Minnan and Hakka sub-groups, are ta
 | 02-11-31 | [Taiwan Funeral Customs](./31-taiwan-han-funeral-customs.md) | Rituals, objects, taboos and local variants of Han Chinese funeral custom in Taiwan. | English |
 | 02-11-32 | [Hong Kong and Macau Funeral Customs](./32-hong-kong-and-macao-funeral-customs.md) | Rituals, objects, taboos and local variants of Han Chinese funeral custom in Hong Kong and Macau. | English |
 
-## Conventions
-
-- Entry files here are named `<two-digit index>-<english-slug>.md`; the index matches the entry’s position in the directory, and the corresponding Chinese original carries the same index under `docs/`.
-- The Chinese corpus under `docs/` is the authoritative text; files here are translations of it.
-- After adding or changing entries, run `node scripts/generate-skeleton.mjs` and `node scripts/check-structure.mjs`.
-
 [← Back to Funeral Rites (Xiongli, the Rites of Mourning)](../README.md) · [Chinese index](../../../../docs/02-funeral-rites/02-11-han-regional-variants/README.md) · [Repository home](../../../../README.md)

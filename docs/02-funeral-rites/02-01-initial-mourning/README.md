@@ -21,11 +21,4 @@
 | 02-01-09 | [立丧主与治丧班子](./09-立丧主与治丧班子.md) | 丧主、主妇、护丧及司书、司货的分工。 |
 | 02-01-10 | [吊唁与开吊受吊](./10-吊唁与开吊受吊.md) | 吊客亲临、赠襚、赙赠与受吊答礼的仪节。 |
 
-## 规范
-
-- 三级条目文档命名：`<两位序号>-<条目名>.md`，序号即本目录内的条目序号。
-- 条目首页 frontmatter 必填项：`id`、`title`、`category`、`tags`、`sources`、`region`、`ethnicity`、`summary`、`status`、`updated`。
-- 条目正文统一六段式：释义 / 历史源流 / 仪节流程 / 地域与民族变体 / 器物与文书 / 文献与参考。
-- 新增或调整条目后，请运行 `node scripts/generate-skeleton.mjs` 与 `node scripts/check-structure.mjs`。
-
 [← 返回 丧葬礼俗（凶礼）](../README.md) · [返回总目录](../../README.md)

@@ -24,10 +24,4 @@ The ordering of the mourning hall, the vigil, morning and evening offerings, and
 | 02-03-10 | [Elegies, Mourning Couplets and Mourning Banners](./10-elegies-couplets-and-banners.md) | The genres of elegy, mourning couplet and mourning banner, and where each is displayed. | English |
 | 02-03-11 | [Taboos of the Mourning Hall](./11-taboos-of-the-mourning-hall.md) | Prohibitions on conduct, speech and zodiac clashes within the mourning hall. | English |
 
-## Conventions
-
-- Entry files here are named `<two-digit index>-<english-slug>.md`; the index matches the entry’s position in the directory, and the corresponding Chinese original carries the same index under `docs/`.
-- The Chinese corpus under `docs/` is the authoritative text; files here are translations of it.
-- After adding or changing entries, run `node scripts/generate-skeleton.mjs` and `node scripts/check-structure.mjs`.
-
 [← Back to Funeral Rites (Xiongli, the Rites of Mourning)](../README.md) · [Chinese index](../../../../docs/02-funeral-rites/02-03-lying-in-state/README.md) · [Repository home](../../../../README.md)

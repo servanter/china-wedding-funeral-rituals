@@ -66,11 +66,4 @@
 | 01-09-54 | [珞巴族婚俗](./54-珞巴族婚俗.md) | 珞巴族的择偶、议婚、婚礼仪节与婚后习俗。 |
 | 01-09-55 | [基诺族婚俗](./55-基诺族婚俗.md) | 基诺族的择偶、议婚、婚礼仪节与婚后习俗。 |
 
-## 规范
-
-- 三级条目文档命名：`<两位序号>-<条目名>.md`，序号即本目录内的条目序号。
-- 条目首页 frontmatter 必填项：`id`、`title`、`category`、`tags`、`sources`、`region`、`ethnicity`、`summary`、`status`、`updated`。
-- 条目正文统一六段式：释义 / 历史源流 / 仪节流程 / 地域与民族变体 / 器物与文书 / 文献与参考。
-- 新增或调整条目后，请运行 `node scripts/generate-skeleton.mjs` 与 `node scripts/check-structure.mjs`。
-
 [← 返回 婚嫁礼俗（嘉礼）](../README.md) · [返回总目录](../../README.md)

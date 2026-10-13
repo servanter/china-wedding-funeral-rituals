@@ -27,10 +27,4 @@ The format and model texts of horoscope cards, marriage contracts, invitations, 
 | 03-02-13 | [Model Ancestral Invocation](./13-model-ancestral-invocation.md) | The format and model texts of seasonal invocations addressed to the ancestors. | English |
 | 03-02-14 | [Modern Electronic Obituaries and Memorial Messages](./14-electronic-obituaries-and-memorial-messages.md) | Examples of group-chat obituaries and online memorial messages. | English |
 
-## Conventions
-
-- Entry files here are named `<two-digit index>-<english-slug>.md`; the index matches the entry’s position in the directory, and the corresponding Chinese original carries the same index under `docs/`.
-- The Chinese corpus under `docs/` is the authoritative text; files here are translations of it.
-- After adding or changing entries, run `node scripts/generate-skeleton.mjs` and `node scripts/check-structure.mjs`.
-
 [← Back to Appendices](../README.md) · [Chinese index](../../../../docs/03-appendix/03-02-document-templates/README.md) · [Repository home](../../../../README.md)

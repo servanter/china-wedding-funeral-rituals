@@ -26,11 +26,4 @@
 | 01-02-14 | [告庙与婚前祭祖](./14-告庙与婚前祭祖.md) | 婚事前告于祖先、祈请庇佑的家礼。 |
 | 01-02-15 | [童养媳、指腹婚与娃娃亲（旧俗考）](./15-旧式婚俗考.md) | 旧式畸形婚俗的成因、形态与批判性考察。 |
 
-## 规范
-
-- 三级条目文档命名：`<两位序号>-<条目名>.md`，序号即本目录内的条目序号。
-- 条目首页 frontmatter 必填项：`id`、`title`、`category`、`tags`、`sources`、`region`、`ethnicity`、`summary`、`status`、`updated`。
-- 条目正文统一六段式：释义 / 历史源流 / 仪节流程 / 地域与民族变体 / 器物与文书 / 文献与参考。
-- 新增或调整条目后，请运行 `node scripts/generate-skeleton.mjs` 与 `node scripts/check-structure.mjs`。
-
 [← 返回 婚嫁礼俗（嘉礼）](../README.md) · [返回总目录](../../README.md)

@@ -31,11 +31,4 @@
 | 03-03-19 | [民俗田野调查与记录方法](./19-田野调查与记录方法.md) | 访谈、观察、记录与口述史整理的方法。 |
 | 03-03-20 | [婚丧礼俗的当代变迁](./20-婚丧礼俗的当代变迁.md) | 城市化、简办与非遗保护之下的礼俗变迁。 |
 
-## 规范
-
-- 三级条目文档命名：`<两位序号>-<条目名>.md`，序号即本目录内的条目序号。
-- 条目首页 frontmatter 必填项：`id`、`title`、`category`、`tags`、`sources`、`region`、`ethnicity`、`summary`、`status`、`updated`。
-- 条目正文统一六段式：释义 / 历史源流 / 仪节流程 / 地域与民族变体 / 器物与文书 / 文献与参考。
-- 新增或调整条目后，请运行 `node scripts/generate-skeleton.mjs` 与 `node scripts/check-structure.mjs`。
-
 [← 返回 配套附属板块](../README.md) · [返回总目录](../../README.md)

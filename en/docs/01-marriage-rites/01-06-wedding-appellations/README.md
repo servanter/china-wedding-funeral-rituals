@@ -21,10 +21,4 @@ The kinship, matchmaker, marriageable-age and verb terminologies employed in the
 | 01-06-07 | [Terms for Marriageable Age (Jiji, Ruoguan, Daizi, Chuge)](./07-terms-for-marriageable-age-jiji-ruoguan-daizi-chuge.md) | The appellations marking stages of marriageable age, and their ritual basis. | English |
 | 01-06-08 | [The Verb System of Marriage (Qu, Jia, Shi, Gui, Zhui)](./08-the-verb-system-of-marriage-qu-jia-shi-gui-zhui.md) | The verbs denoting marriage relations and the differences in their meanings. | English |
 
-## Conventions
-
-- Entry files here are named `<two-digit index>-<english-slug>.md`; the index matches the entry’s position in the directory, and the corresponding Chinese original carries the same index under `docs/`.
-- The Chinese corpus under `docs/` is the authoritative text; files here are translations of it.
-- After adding or changing entries, run `node scripts/generate-skeleton.mjs` and `node scripts/check-structure.mjs`.
-
 [← Back to Marriage Rites (Jiali, the Rites of Festivity)](../README.md) · [Chinese index](../../../../docs/01-marriage-rites/01-06-wedding-appellations/README.md) · [Repository home](../../../../README.md)

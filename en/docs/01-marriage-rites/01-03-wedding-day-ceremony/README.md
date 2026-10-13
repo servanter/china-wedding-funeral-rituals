@@ -30,10 +30,4 @@ The ceremonial programme of the wedding day itself, from the departure of the es
 | 01-03-16 | [Wedding Officers and the Master of Ceremonies (Lisheng)](./16-wedding-officers-and-the-master-of-ceremonies-lisheng.md) | The spoken formulas of the master of ceremonies, the ritual assistants and the stewards. | English |
 | 01-03-17 | [The Contemporary Chinese Wedding: An Integrated Programme](./17-contemporary-chinese-wedding.md) | How traditional rites are retained, simplified or rearranged in modern weddings. | English |
 
-## Conventions
-
-- Entry files here are named `<two-digit index>-<english-slug>.md`; the index matches the entry’s position in the directory, and the corresponding Chinese original carries the same index under `docs/`.
-- The Chinese corpus under `docs/` is the authoritative text; files here are translations of it.
-- After adding or changing entries, run `node scripts/generate-skeleton.mjs` and `node scripts/check-structure.mjs`.
-
 [← Back to Marriage Rites (Jiali, the Rites of Festivity)](../README.md) · [Chinese index](../../../../docs/01-marriage-rites/01-03-wedding-day-ceremony/README.md) · [Repository home](../../../../README.md)

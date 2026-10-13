@@ -25,10 +25,4 @@ The five grades — zhan cui, zi cui, da gong, xiao gong and si ma — and their
 | 02-06-11 | [The Five Degrees and Lineage Law](./11-the-five-degrees-and-the-lineage-system.md) | The links between mourning grades, clan organisation and the inheritance of property. | English |
 | 02-06-12 | [Survivals of the Five Degrees Today](./12-modern-remnants-of-the-five-degrees.md) | Traces of the five degrees in contemporary mourning dress and mourning practice. | English |
 
-## Conventions
-
-- Entry files here are named `<two-digit index>-<english-slug>.md`; the index matches the entry’s position in the directory, and the corresponding Chinese original carries the same index under `docs/`.
-- The Chinese corpus under `docs/` is the authoritative text; files here are translations of it.
-- After adding or changing entries, run `node scripts/generate-skeleton.mjs` and `node scripts/check-structure.mjs`.
-
 [← Back to Funeral Rites (Xiongli, the Rites of Mourning)](../README.md) · [Chinese index](../../../../docs/02-funeral-rites/02-06-five-degrees-mourning/README.md) · [Repository home](../../../../README.md)

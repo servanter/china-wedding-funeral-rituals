@@ -23,10 +23,4 @@ The six procedures recorded in the Shihunli of the Yili — nacai, wenming, naji
 | 01-01-09 | [Exogamy of the Same Surname and Zhou Marriage Institutions](./09-exogamy-of-the-same-surname-and-zhou-marriage-institutions.md) | Clan exogamy, the concubine-accompanying system, and the ritual basis of one principal wife with secondary consorts. | English |
 | 01-01-10 | [Matchmakers and the Maxim “Parents' Command, the Go-Between's Word”](./10-matchmakers-and-the-maxim.md) | Official and private matchmakers, and the professionalisation of the go-between. | English |
 
-## Conventions
-
-- Entry files here are named `<two-digit index>-<english-slug>.md`; the index matches the entry’s position in the directory, and the corresponding Chinese original carries the same index under `docs/`.
-- The Chinese corpus under `docs/` is the authoritative text; files here are translations of it.
-- After adding or changing entries, run `node scripts/generate-skeleton.mjs` and `node scripts/check-structure.mjs`.
-
 [← Back to Marriage Rites (Jiali, the Rites of Festivity)](../README.md) · [Chinese index](../../../../docs/01-marriage-rites/01-01-six-rites/README.md) · [Repository home](../../../../README.md)

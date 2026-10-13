@@ -23,10 +23,4 @@ Date selection in mourning, the avoidance of repeated bereavement, grave geomanc
 | 02-10-09 | [Clashes and Zodiac Taboos](./09-sha-clash-and-zodiac-taboos.md) | Zodiac conflicts, offence against the year god, and the arrangements made to avoid them. | English |
 | 02-10-10 | [Customs of Seeking Good Fortune and Warding off Evil](./10-auspice-seeking-and-evil-warding-customs.md) | Peach branches, cinnabar, talismanic writing and other apotropaic practices, with explanations. | English |
 
-## Conventions
-
-- Entry files here are named `<two-digit index>-<english-slug>.md`; the index matches the entry’s position in the directory, and the corresponding Chinese original carries the same index under `docs/`.
-- The Chinese corpus under `docs/` is the authoritative text; files here are translations of it.
-- After adding or changing entries, run `node scripts/generate-skeleton.mjs` and `node scripts/check-structure.mjs`.
-
 [← Back to Funeral Rites (Xiongli, the Rites of Mourning)](../README.md) · [Chinese index](../../../../docs/02-funeral-rites/02-10-funeral-auspicious-taboos/README.md) · [Repository home](../../../../README.md)

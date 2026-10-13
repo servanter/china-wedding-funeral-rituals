@@ -23,10 +23,4 @@ Appellations for the deceased, the self-designations of the bereaved, the system
 | 02-09-09 | [Appellations of Funeral Officers](./09-funeral-functionary-titles.md) | The titles of the great guest, the ritual assistant, the master of ceremonies and the pall-bearers. | English |
 | 02-09-10 | [Words of Condolence and Appellations in Mourning Visits](./10-condolence-phrases-and-mourning-visit-titles.md) | The appellations and formulas used in condolence, in mourning visits and in funerary gifts. | English |
 
-## Conventions
-
-- Entry files here are named `<two-digit index>-<english-slug>.md`; the index matches the entry’s position in the directory, and the corresponding Chinese original carries the same index under `docs/`.
-- The Chinese corpus under `docs/` is the authoritative text; files here are translations of it.
-- After adding or changing entries, run `node scripts/generate-skeleton.mjs` and `node scripts/check-structure.mjs`.
-
 [← Back to Funeral Rites (Xiongli, the Rites of Mourning)](../README.md) · [Chinese index](../../../../docs/02-funeral-rites/02-09-funeral-appellations/README.md) · [Repository home](../../../../README.md)

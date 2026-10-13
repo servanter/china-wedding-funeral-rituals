@@ -68,10 +68,4 @@ Taking each of the 55 ethnic minorities in turn, this section records characteri
 | 01-09-54 | [Lhoba Marriage Customs](./54-lhoba-marriage-customs.md) | Courtship, betrothal negotiation, wedding ceremonies and post-wedding customs of the Lhoba people. | English |
 | 01-09-55 | [Jino Marriage Customs](./55-jino-marriage-customs.md) | Courtship, betrothal negotiation, wedding ceremonies and post-wedding customs of the Jino people. | English |
 
-## Conventions
-
-- Entry files here are named `<two-digit index>-<english-slug>.md`; the index matches the entry’s position in the directory, and the corresponding Chinese original carries the same index under `docs/`.
-- The Chinese corpus under `docs/` is the authoritative text; files here are translations of it.
-- After adding or changing entries, run `node scripts/generate-skeleton.mjs` and `node scripts/check-structure.mjs`.
-
 [← Back to Marriage Rites (Jiali, the Rites of Festivity)](../README.md) · [Chinese index](../../../../docs/01-marriage-rites/01-09-ethnic-minority-marriage/README.md) · [Repository home](../../../../README.md)

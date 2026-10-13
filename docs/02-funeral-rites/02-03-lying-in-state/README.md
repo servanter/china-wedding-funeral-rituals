@@ -22,11 +22,4 @@
 | 02-03-10 | [祭文、挽联与挽幛](./10-祭文挽联与挽幛.md) | 祭文、挽联、挽幛的文体与陈放位置。 |
 | 02-03-11 | [灵堂禁忌](./11-灵堂禁忌.md) | 灵堂内的行为、言语与生肖冲煞禁忌。 |
 
-## 规范
-
-- 三级条目文档命名：`<两位序号>-<条目名>.md`，序号即本目录内的条目序号。
-- 条目首页 frontmatter 必填项：`id`、`title`、`category`、`tags`、`sources`、`region`、`ethnicity`、`summary`、`status`、`updated`。
-- 条目正文统一六段式：释义 / 历史源流 / 仪节流程 / 地域与民族变体 / 器物与文书 / 文献与参考。
-- 新增或调整条目后，请运行 `node scripts/generate-skeleton.mjs` 与 `node scripts/check-structure.mjs`。
-
 [← 返回 丧葬礼俗（凶礼）](../README.md) · [返回总目录](../../README.md)

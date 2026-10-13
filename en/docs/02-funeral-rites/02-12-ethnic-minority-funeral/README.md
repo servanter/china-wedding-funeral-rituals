@@ -68,10 +68,4 @@ Taking each of the 55 ethnic minorities in turn, this section records characteri
 | 02-12-54 | [Lhoba Funeral Customs](./54-lhoba-funeral-customs.md) | Dying, mourning, modes of burial and post-burial sacrifices among the Lhoba people. | English |
 | 02-12-55 | [Jino Funeral Customs](./55-jino-funeral-customs.md) | Dying, mourning, modes of burial and post-burial sacrifices among the Jino people. | English |
 
-## Conventions
-
-- Entry files here are named `<two-digit index>-<english-slug>.md`; the index matches the entry’s position in the directory, and the corresponding Chinese original carries the same index under `docs/`.
-- The Chinese corpus under `docs/` is the authoritative text; files here are translations of it.
-- After adding or changing entries, run `node scripts/generate-skeleton.mjs` and `node scripts/check-structure.mjs`.
-
 [← Back to Funeral Rites (Xiongli, the Rites of Mourning)](../README.md) · [Chinese index](../../../../docs/02-funeral-rites/02-12-ethnic-minority-funeral/README.md) · [Repository home](../../../../README.md)

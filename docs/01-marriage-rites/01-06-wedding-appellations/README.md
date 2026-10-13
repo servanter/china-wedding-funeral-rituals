@@ -19,11 +19,4 @@
 | 01-06-07 | [婚龄称谓（及笄、弱冠、待字、出阁）](./07-婚龄称谓.md) | 各婚龄阶段称谓及其礼制依据。 |
 | 01-06-08 | [嫁娶动词体系（娶、嫁、适、归、赘）](./08-嫁娶动词体系.md) | 表示嫁娶关系的动词群及其语义差别。 |
 
-## 规范
-
-- 三级条目文档命名：`<两位序号>-<条目名>.md`，序号即本目录内的条目序号。
-- 条目首页 frontmatter 必填项：`id`、`title`、`category`、`tags`、`sources`、`region`、`ethnicity`、`summary`、`status`、`updated`。
-- 条目正文统一六段式：释义 / 历史源流 / 仪节流程 / 地域与民族变体 / 器物与文书 / 文献与参考。
-- 新增或调整条目后，请运行 `node scripts/generate-skeleton.mjs` 与 `node scripts/check-structure.mjs`。
-
 [← 返回 婚嫁礼俗（嘉礼）](../README.md) · [返回总目录](../../README.md)

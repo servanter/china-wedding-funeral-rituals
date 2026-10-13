@@ -19,11 +19,4 @@
 | 03-01-07 | [亲属称谓的古今演变](./07-亲属称谓古今演变.md) | 古今称谓的替换、简化与雅化过程。 |
 | 03-01-08 | [各方言区亲属称谓差异](./08-方言区亲属称谓差异.md) | 官话与各大方言区称谓差异举要。 |
 
-## 规范
-
-- 三级条目文档命名：`<两位序号>-<条目名>.md`，序号即本目录内的条目序号。
-- 条目首页 frontmatter 必填项：`id`、`title`、`category`、`tags`、`sources`、`region`、`ethnicity`、`summary`、`status`、`updated`。
-- 条目正文统一六段式：释义 / 历史源流 / 仪节流程 / 地域与民族变体 / 器物与文书 / 文献与参考。
-- 新增或调整条目后，请运行 `node scripts/generate-skeleton.mjs` 与 `node scripts/check-structure.mjs`。
-
 [← 返回 配套附属板块](../README.md) · [返回总目录](../../README.md)

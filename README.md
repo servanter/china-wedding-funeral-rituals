@@ -2,9 +2,8 @@
 
 **语言：** **简体中文** · [English](./README.en.md)
 
-<!-- 实时 CI / 仓库体积徽章：push 到 GitHub 后取消下面两行注释，并把 OWNER/REPO 换成你的用户名/仓库名即可生效 -->
-<!-- [![CI](https://img.shields.io/github/actions/workflow/status/OWNER/REPO/check-structure.yml?label=CI&logo=githubactions&style=flat-square)](https://github.com/OWNER/REPO/actions/workflows/check-structure.yml) -->
-<!-- [![Repo size](https://img.shields.io/github/repo-size/OWNER/REPO?style=flat-square)](https://github.com/OWNER/REPO) -->
+[![CI](https://img.shields.io/github/actions/workflow/status/servanter/china-wedding-funeral-rituals/check-structure.yml?label=CI&logo=githubactions&style=flat-square)](https://github.com/servanter/china-wedding-funeral-rituals/actions/workflows/check-structure.yml)
+[![Repo size](https://img.shields.io/github/repo-size/servanter/china-wedding-funeral-rituals?style=flat-square)](https://github.com/servanter/china-wedding-funeral-rituals)
 
 ![License](https://img.shields.io/badge/license-CC%20BY--SA%204.0-blue?style=flat-square)
 ![Entries](https://img.shields.io/badge/条目-415-blueviolet?style=flat-square)
@@ -12,12 +11,13 @@
 ![Languages](https://img.shields.io/badge/语言-中文%20%2F%20English-green?style=flat-square)
 ![Format](https://img.shields.io/badge/格式-Markdown-lightgrey?style=flat-square)
 ![Illustrations](https://img.shields.io/badge/配图-38%20张-pink?style=flat-square)
-![Structure CI](https://img.shields.io/badge/CI--check--structure-passing-success?style=flat-square)
 
 > 一个系统整理中国传统婚嫁（嘉礼）与丧葬（凶礼）礼俗的开源资料库。
 > 以「一级分类 → 二级分类 → 三级条目」组织，每个三级条目对应一个独立 markdown 文档。
 
 ## 仓库简介
+
+<video src="assets/videos/nacai-mix.mp4" controls width="480">您的浏览器不支持视频播放，请<a href="assets/videos/nacai-mix.mp4">点击此处观看 / 下载 nacai-mix.mp4</a>。</video>
 
 本库覆盖三大板块：
 
@@ -47,32 +47,18 @@ china-wedding-funeral-rituals/
 ├── README.en.md             # 英文入口（English index）
 ├── LICENSE                  # 文档许可（CC BY-SA 4.0）
 ├── LICENSE-CODE             # 脚本许可（MIT）
-├── CONTRIBUTING.md          # 贡献指南与条目模板
-├── CONTRIBUTING.en.md       # 贡献指南（英文）
-├── CHANGELOG.md
-├── assets/                  # 图片与图表
+├── assets/                  # 图片、图表与演示视频
 ├── scripts/
 │   ├── generate-skeleton.mjs  # 目录骨架与索引生成
-│   └── check-structure.mjs    # 结构校验（CI 使用）
+│   ├── check-structure.mjs    # 结构校验（CI 使用）
+│   ├── i18n.mjs               # 中英条目逐批翻译与索引同步
+│   └── progress.mjs           # 翻译进度统计
 ├── docs/
 │   ├── 01-marriage-rites/   # 婚嫁礼俗（嘉礼）
 │   ├── 02-funeral-rites/    # 丧葬礼俗（凶礼）
 │   └── 03-appendix/         # 配套附属板块
 └── en/
     └── docs/                # 英文索引层与已英译条目正文
-```
-
-命名规则：二级目录 `NN-NN-<english-slug>/`，三级文档 `NN-<条目名>.md`。
-英文树 `en/docs/` 与 `docs/` 同构，条目文档名为 `NN-<english-slug>.md`（全 ASCII），以两位序号与中文条目一一对应。
-
-## 使用方式
-
-```bash
-# 校验目录结构与 frontmatter（CI 同款检查）
-node scripts/check-structure.mjs
-
-# 生成缺失的条目文档并重建全部 README 索引
-node scripts/generate-skeleton.mjs
 ```
 
 ## 全量条目索引
@@ -671,10 +657,6 @@ node scripts/generate-skeleton.mjs
 | 03-03-18 | [婚丧礼俗中的信仰元素（儒、释、道、民间）](./docs/03-appendix/03-03-ritual-concepts/18-婚丧中的信仰元素.md) | 儒释道与民间信仰在婚丧中的叠合形态。 |
 | 03-03-19 | [民俗田野调查与记录方法](./docs/03-appendix/03-03-ritual-concepts/19-田野调查与记录方法.md) | 访谈、观察、记录与口述史整理的方法。 |
 | 03-03-20 | [婚丧礼俗的当代变迁](./docs/03-appendix/03-03-ritual-concepts/20-婚丧礼俗的当代变迁.md) | 城市化、简办与非遗保护之下的礼俗变迁。 |
-
-## 贡献
-
-请阅读 [CONTRIBUTING.md](./CONTRIBUTING.md)（English: [CONTRIBUTING.en.md](./CONTRIBUTING.en.md)）。欢迎补充文献出处、地域田野记录、器物图版与校勘意见。
 
 ## 许可
 

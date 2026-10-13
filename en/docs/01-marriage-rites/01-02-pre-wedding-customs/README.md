@@ -28,10 +28,4 @@ The whole body of pre-wedding custom, from negotiation and betrothal to the prep
 | 01-02-14 | [Announcing the Marriage to the Ancestors](./14-announcing-the-marriage-to-the-ancestors.md) | The family rite of informing the ancestors of the coming wedding and asking their blessing. | English |
 | 01-02-15 | [Child Brides, Prenatal Betrothals and Infant Betrothals (A Critical Survey)](./15-child-brides-and-infant-betrothal.md) | Causes, forms and a critical examination of malformed marriage customs of the old order. | English |
 
-## Conventions
-
-- Entry files here are named `<two-digit index>-<english-slug>.md`; the index matches the entry’s position in the directory, and the corresponding Chinese original carries the same index under `docs/`.
-- The Chinese corpus under `docs/` is the authoritative text; files here are translations of it.
-- After adding or changing entries, run `node scripts/generate-skeleton.mjs` and `node scripts/check-structure.mjs`.
-
 [← Back to Marriage Rites (Jiali, the Rites of Festivity)](../README.md) · [Chinese index](../../../../docs/01-marriage-rites/01-02-pre-wedding-customs/README.md) · [Repository home](../../../../README.md)

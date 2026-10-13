@@ -29,10 +29,4 @@ The objects, attire, documents and auspicious motifs used in the course of a mar
 | 01-05-15 | [Double Happiness, Wedding Couplets and Paper Cuts](./15-double-happiness-wedding-couplets-and-paper-cuts.md) | The writing and posting of auspicious characters and couplets, and the motifs of paper cutting. | English |
 | 01-05-16 | [Auspicious Motifs: Dragon and Phoenix, Mandarin Ducks, Pomegranate, Double Happiness](./16-auspicious-motifs.md) | The symbolic repertoire of wedding decoration. | English |
 
-## Conventions
-
-- Entry files here are named `<two-digit index>-<english-slug>.md`; the index matches the entry’s position in the directory, and the corresponding Chinese original carries the same index under `docs/`.
-- The Chinese corpus under `docs/` is the authoritative text; files here are translations of it.
-- After adding or changing entries, run `node scripts/generate-skeleton.mjs` and `node scripts/check-structure.mjs`.
-
 [← Back to Marriage Rites (Jiali, the Rites of Festivity)](../README.md) · [Chinese index](../../../../docs/01-marriage-rites/01-05-wedding-objects/README.md) · [Repository home](../../../../README.md)

@@ -19,11 +19,4 @@
 | 01-07-07 | [婚嫁路线与方位禁忌](./07-路线与方位禁忌.md) | 迎亲路线、不走回头路与方位吉凶。 |
 | 01-07-08 | [喜冲喜与冲花轿](./08-喜冲喜与冲花轿.md) | 两队花轿相遇、喜冲喜的化解办法。 |
 
-## 规范
-
-- 三级条目文档命名：`<两位序号>-<条目名>.md`，序号即本目录内的条目序号。
-- 条目首页 frontmatter 必填项：`id`、`title`、`category`、`tags`、`sources`、`region`、`ethnicity`、`summary`、`status`、`updated`。
-- 条目正文统一六段式：释义 / 历史源流 / 仪节流程 / 地域与民族变体 / 器物与文书 / 文献与参考。
-- 新增或调整条目后，请运行 `node scripts/generate-skeleton.mjs` 与 `node scripts/check-structure.mjs`。
-
 [← 返回 婚嫁礼俗（嘉礼）](../README.md) · [返回总目录](../../README.md)

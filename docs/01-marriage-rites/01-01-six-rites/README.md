@@ -21,11 +21,4 @@
 | 01-01-09 | [同姓不婚与周代婚姻制度](./09-同姓不婚与周代婚制.md) | 宗族外婚、媵妾制与一夫一妻多妾的礼制基础。 |
 | 01-01-10 | [媒妁制度与“父母之命，媒妁之言”](./10-媒妁制度.md) | 官媒、私媒与媒人职业化的礼俗脉络。 |
 
-## 规范
-
-- 三级条目文档命名：`<两位序号>-<条目名>.md`，序号即本目录内的条目序号。
-- 条目首页 frontmatter 必填项：`id`、`title`、`category`、`tags`、`sources`、`region`、`ethnicity`、`summary`、`status`、`updated`。
-- 条目正文统一六段式：释义 / 历史源流 / 仪节流程 / 地域与民族变体 / 器物与文书 / 文献与参考。
-- 新增或调整条目后，请运行 `node scripts/generate-skeleton.mjs` 与 `node scripts/check-structure.mjs`。
-
 [← 返回 婚嫁礼俗（嘉礼）](../README.md) · [返回总目录](../../README.md)

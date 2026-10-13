@@ -2,9 +2,8 @@
 
 **Languages:** [简体中文](./README.md) · **English**
 
-<!-- Live CI / repo-size badges: after pushing to GitHub, uncomment the lines below and replace OWNER/REPO with your username/repo -->
-<!-- [![CI](https://img.shields.io/github/actions/workflow/status/OWNER/REPO/check-structure.yml?label=CI&logo=githubactions&style=flat-square)](https://github.com/OWNER/REPO/actions/workflows/check-structure.yml) -->
-<!-- [![Repo size](https://img.shields.io/github/repo-size/OWNER/REPO?style=flat-square)](https://github.com/OWNER/REPO) -->
+[![CI](https://img.shields.io/github/actions/workflow/status/servanter/china-wedding-funeral-rituals/check-structure.yml?label=CI&logo=githubactions&style=flat-square)](https://github.com/servanter/china-wedding-funeral-rituals/actions/workflows/check-structure.yml)
+[![Repo size](https://img.shields.io/github/repo-size/servanter/china-wedding-funeral-rituals?style=flat-square)](https://github.com/servanter/china-wedding-funeral-rituals)
 
 ![License](https://img.shields.io/badge/license-CC%20BY--SA%204.0-blue?style=flat-square)
 ![Entries](https://img.shields.io/badge/entries-415-blueviolet?style=flat-square)
@@ -12,11 +11,12 @@
 ![Languages](https://img.shields.io/badge/languages-中文%20%2F%20English-green?style=flat-square)
 ![Format](https://img.shields.io/badge/format-Markdown-lightgrey?style=flat-square)
 ![Illustrations](https://img.shields.io/badge/illustrations-38-pink?style=flat-square)
-![Structure CI](https://img.shields.io/badge/CI--check--structure-passing-success?style=flat-square)
 
 > An open-source corpus systematically documenting traditional Chinese marriage rites (jiali) and funeral rites (xiongli). It is organised as “category → sub-category → entry”, with one standalone Markdown document per entry.
 
 ## About
+
+<video src="assets/videos/nacai-mix.mp4" controls width="480">Your browser does not support the video. <a href="assets/videos/nacai-mix.mp4">Click to watch / download nacai-mix.mp4</a>.</video>
 
 This corpus covers three parts:
 
@@ -50,34 +50,18 @@ china-wedding-funeral-rituals/
 ├── README.en.md             # English entry point
 ├── LICENSE                  # Text licence (CC BY-SA 4.0)
 ├── LICENSE-CODE             # Script licence (MIT)
-├── CONTRIBUTING.md          # Contribution guide and entry template
-├── CONTRIBUTING.en.md       # Contribution guide (English)
-├── CHANGELOG.md
-├── assets/                  # Images and diagrams
+├── assets/                  # Images, diagrams and demo video
 ├── scripts/
 │   ├── generate-skeleton.mjs  # Directory skeleton and index generation
-│   └── check-structure.mjs    # Structure validation (used by CI)
+│   ├── check-structure.mjs    # Structure validation (used by CI)
+│   ├── i18n.mjs               # Batch EN translation and index sync
+│   └── progress.mjs           # Translation progress stats
 ├── docs/                    # Chinese corpus
 │   ├── 01-marriage-rites/
 │   ├── 02-funeral-rites/
 │   └── 03-appendix/
 └── en/
     └── docs/                # English index layer and translated entry bodies
-```
-
-Naming: sub-category directories use `NN-NN-<english-slug>/`, entry documents use `NN-<entry-name>.md`.
-
-## Usage
-
-```bash
-# validate directory structure and frontmatter (the same check CI runs)
-node scripts/check-structure.mjs
-
-# validate the English index layer
-node scripts/check-structure.mjs --lang en
-
-# regenerate missing entry documents and rebuild all README indexes
-node scripts/generate-skeleton.mjs
 ```
 
 ## Full entry index
@@ -676,10 +660,6 @@ Three appendices that supply the background for the two main books: kinship term
 | 03-03-18 | [Religious Elements in Wedding and Funeral Custom: Confucian, Buddhist, Daoist and Folk](./en/docs/03-appendix/03-03-ritual-concepts/18-religious-elements.md) | The overlapping of Confucian, Buddhist, Daoist and folk belief in weddings and funerals. | English |
 | 03-03-19 | [Fieldwork and Documentation in Folk Studies](./en/docs/03-appendix/03-03-ritual-concepts/19-fieldwork-and-documentation-in-folk-studies.md) | Methods of interview, observation and recording, and the compilation of oral history. | English |
 | 03-03-20 | [Contemporary Change in Wedding and Funeral Custom](./en/docs/03-appendix/03-03-ritual-concepts/20-contemporary-change-in-custom.md) | Change under urbanisation, simplified ceremonial and the safeguarding of intangible heritage. | English |
-
-## Contributing
-
-Please read [CONTRIBUTING.en.md](./CONTRIBUTING.en.md). Sources, regional fieldwork records, object plates and textual corrections are all welcome.
 
 ## Licence
 

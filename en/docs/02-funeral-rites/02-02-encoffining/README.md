@@ -23,10 +23,4 @@ Minor and major dressing, and the placing of the body in the coffin, together wi
 | 02-02-09 | [Mourning Wails and Lament Songs](./09-mourning-wails-and-lament-songs.md) | Lamentation customs at encoffining, and the genres of lament song. | English |
 | 02-02-10 | [Regional Differences in Encoffining](./10-regional-differences-in-encoffining.md) | Differences in procedure, objects and folk detail between north and south. | English |
 
-## Conventions
-
-- Entry files here are named `<two-digit index>-<english-slug>.md`; the index matches the entry’s position in the directory, and the corresponding Chinese original carries the same index under `docs/`.
-- The Chinese corpus under `docs/` is the authoritative text; files here are translations of it.
-- After adding or changing entries, run `node scripts/generate-skeleton.mjs` and `node scripts/check-structure.mjs`.
-
 [← Back to Funeral Rites (Xiongli, the Rites of Mourning)](../README.md) · [Chinese index](../../../../docs/02-funeral-rites/02-02-encoffining/README.md) · [Repository home](../../../../README.md)

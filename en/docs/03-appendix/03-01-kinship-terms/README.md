@@ -21,10 +21,4 @@ The three systems of agnatic, maternal and afinal terms, together with their his
 | 03-01-07 | [Historical Evolution of Kinship Terms](./07-historical-evolution-of-kinship-terms.md) | Substitution, simplification and refinement of kinship terms from antiquity to the present. | English |
 | 03-01-08 | [Regional Differences in Kinship Terms](./08-regional-differences-in-kinship-terms.md) | A survey of differences between the Mandarin area and the major dialect regions. | English |
 
-## Conventions
-
-- Entry files here are named `<two-digit index>-<english-slug>.md`; the index matches the entry’s position in the directory, and the corresponding Chinese original carries the same index under `docs/`.
-- The Chinese corpus under `docs/` is the authoritative text; files here are translations of it.
-- After adding or changing entries, run `node scripts/generate-skeleton.mjs` and `node scripts/check-structure.mjs`.
-
 [← Back to Appendices](../README.md) · [Chinese index](../../../../docs/03-appendix/03-01-kinship-terms/README.md) · [Repository home](../../../../README.md)

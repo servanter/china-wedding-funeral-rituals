@@ -26,11 +26,4 @@
 | 02-07-14 | [买地券与告地策](./14-买地券与告地策.md) | 买地券、告地策的文本格式与宗教含义。 |
 | 02-07-15 | [现代殡葬用品](./15-现代殡葬用品.md) | 骨灰盒、花圈、电子祭品等现代殡葬用品。 |
 
-## 规范
-
-- 三级条目文档命名：`<两位序号>-<条目名>.md`，序号即本目录内的条目序号。
-- 条目首页 frontmatter 必填项：`id`、`title`、`category`、`tags`、`sources`、`region`、`ethnicity`、`summary`、`status`、`updated`。
-- 条目正文统一六段式：释义 / 历史源流 / 仪节流程 / 地域与民族变体 / 器物与文书 / 文献与参考。
-- 新增或调整条目后，请运行 `node scripts/generate-skeleton.mjs` 与 `node scripts/check-structure.mjs`。
-
 [← 返回 丧葬礼俗（凶礼）](../README.md) · [返回总目录](../../README.md)

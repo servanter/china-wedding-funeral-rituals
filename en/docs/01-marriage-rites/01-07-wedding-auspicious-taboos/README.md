@@ -21,10 +21,4 @@ The principles of date selection and astrological matching in marriage, and the 
 | 01-07-07 | [Taboos on Routes and Directions](./07-taboos-on-routes-and-directions.md) | The bride-escort route, the rule against retracing one's steps, and auspicious directions. | English |
 | 01-07-08 | [Wedding Meeting Wedding, and Clashing with Another Bridal Sedan](./08-wedding-meeting-wedding-and-clashing-with-another-bridal-sedan.md) | How a clash between two wedding processions is avoided or resolved. | English |
 
-## Conventions
-
-- Entry files here are named `<two-digit index>-<english-slug>.md`; the index matches the entry’s position in the directory, and the corresponding Chinese original carries the same index under `docs/`.
-- The Chinese corpus under `docs/` is the authoritative text; files here are translations of it.
-- After adding or changing entries, run `node scripts/generate-skeleton.mjs` and `node scripts/check-structure.mjs`.
-
 [← Back to Marriage Rites (Jiali, the Rites of Festivity)](../README.md) · [Chinese index](../../../../docs/01-marriage-rites/01-07-wedding-auspicious-taboos/README.md) · [Repository home](../../../../README.md)

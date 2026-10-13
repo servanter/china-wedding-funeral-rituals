@@ -23,10 +23,4 @@ The rites of the earliest phase: dying, summoning the soul, washing the body, fi
 | 02-01-09 | [Appointing the Chief Mourner and the Funeral Staff](./09-chief-mourner-and-funeral-staff.md) | The division of labour among the chief mourner, the mistress of the house, the overseer, the scribe and the quartermaster. | English |
 | 02-01-10 | [Condolence Visits and Receiving Mourners](./10-condolence-visits-and-receiving-mourners.md) | The rites by which visitors pay their respects, present grave-gifts and offerings, and receive acknowledgement. | English |
 
-## Conventions
-
-- Entry files here are named `<two-digit index>-<english-slug>.md`; the index matches the entry’s position in the directory, and the corresponding Chinese original carries the same index under `docs/`.
-- The Chinese corpus under `docs/` is the authoritative text; files here are translations of it.
-- After adding or changing entries, run `node scripts/generate-skeleton.mjs` and `node scripts/check-structure.mjs`.
-
 [← Back to Funeral Rites (Xiongli, the Rites of Mourning)](../README.md) · [Chinese index](../../../../docs/02-funeral-rites/02-01-initial-mourning/README.md) · [Repository home](../../../../README.md)

@@ -27,10 +27,4 @@ The full sequence of sacrifices, from the third day and the seven-day cycle to t
 | 02-05-13 | [Offerings, Paper Effigies and Spirit Money](./13-offerings-paper-effigies-and-spirit-money.md) | The kinds and conventions of seasonal offerings, paper figures and burnt paper money. | English |
 | 02-05-14 | [Modern Memorial Services and Online Grave Sweeping](./14-modern-memorial-services-and-online-mourning.md) | Memorial gatherings, online mourning and ecological burial as new forms. | English |
 
-## Conventions
-
-- Entry files here are named `<two-digit index>-<english-slug>.md`; the index matches the entry’s position in the directory, and the corresponding Chinese original carries the same index under `docs/`.
-- The Chinese corpus under `docs/` is the authoritative text; files here are translations of it.
-- After adding or changing entries, run `node scripts/generate-skeleton.mjs` and `node scripts/check-structure.mjs`.
-
 [← Back to Funeral Rites (Xiongli, the Rites of Mourning)](../README.md) · [Chinese index](../../../../docs/02-funeral-rites/02-05-post-burial-sacrifices/README.md) · [Repository home](../../../../README.md)

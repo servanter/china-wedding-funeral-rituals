@@ -23,10 +23,4 @@ The cut, materials, headwear and staves of mourning attire, the points at which 
 | 02-08-09 | [Taboos and Restrictions of Daily Life in Mourning](./09-mourning-taboos-and-living-restrictions.md) | Restrictions on dwelling, diet, speech and marriage during the mourning period. | English |
 | 02-08-10 | [Contemporary Mourning Dress: Filial Cloth, Armband and White Flower](./10-contemporary-mourning-dress.md) | The modern forms of filial cloth, armbands, black crepe and white flowers. | English |
 
-## Conventions
-
-- Entry files here are named `<two-digit index>-<english-slug>.md`; the index matches the entry’s position in the directory, and the corresponding Chinese original carries the same index under `docs/`.
-- The Chinese corpus under `docs/` is the authoritative text; files here are translations of it.
-- After adding or changing entries, run `node scripts/generate-skeleton.mjs` and `node scripts/check-structure.mjs`.
-
 [← Back to Funeral Rites (Xiongli, the Rites of Mourning)](../README.md) · [Chinese index](../../../../docs/02-funeral-rites/02-08-mourning-attire-regulations/README.md) · [Repository home](../../../../README.md)
